@@ -22,16 +22,16 @@ TagManager:
   - UI
   - 
   - 
-  - Enemy
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - CameraConfiner
+  - Climbing
+  - Hittable
+  - Weapon
+  - Plattforms
+  - SpawnPoint
+  - Pickable
+  - Enemies
+  - AgentCollider
   - 
   - 
   - 
@@ -88,4 +88,13 @@ TagManager:
     locked: 0
   - name: FrontBlack
     uniqueID: 34939365
+    locked: 0
+  - name: Pickable
+    uniqueID: 170039969
+    locked: 0
+  - name: UI
+    uniqueID: 2934985929
+    locked: 0
+  - name: Agents
+    uniqueID: 1361274451
     locked: 0
