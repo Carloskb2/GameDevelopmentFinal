@@ -24,7 +24,7 @@ TagManager:
   - 
   - Ground
   - CameraConfiner
-  - Climbing
+  - ClimbingStuff
   - Hittable
   - Weapon
   - Plattforms
