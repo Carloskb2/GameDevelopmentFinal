@@ -13,6 +13,7 @@ TagManager:
   - LeftWall
   - CheckPoints
   - RightWall
+  - PlayerAgent
   layers:
   - Default
   - TransparentFX
