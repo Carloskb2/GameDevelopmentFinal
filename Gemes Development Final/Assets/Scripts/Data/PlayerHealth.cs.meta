@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 455613b0abcd6f74fbcbcc6fbb75e516
+guid: 1dcd7ab9ac869a846b594a2ce821890e
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - playerPrefab: {fileID: 8254668315787094966, guid: c00f52de256d5304aac804dcf80daefe,
+  - playerTransform: {fileID: 8254668315787094967, guid: c00f52de256d5304aac804dcf80daefe,
       type: 3}
-  - spawnPoint: {instanceID: 0}
+  - respawnPoint: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

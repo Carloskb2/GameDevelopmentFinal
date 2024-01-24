@@ -3,21 +3,36 @@
 public class PlayerSpawn : MonoBehaviour
 {
     [SerializeField]
-    private GameObject playerPrefab;
+    GameObject playerPrefab;
     [SerializeField]
-    private Transform spawnPoint;
+    Transform spawnPoint;
+    public static PlayerSpawn Instance { get; private set; }
 
-    void Start()
+    private GameObject currentPlayerInstance;
+
+    private void Awake()
     {
-        SpawnPlayer();
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            Instance = this;
+            SpawnPlayer(); // Instantiate the player when the game starts
+        }
     }
 
-    void SpawnPlayer()
+    public void SpawnPlayer()
     {
+        if (currentPlayerInstance != null)
+        {
+            Destroy(currentPlayerInstance);
+        }
+
         if (playerPrefab != null && spawnPoint != null)
         {
-            Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
+            currentPlayerInstance = Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
         }
     }
 }
-
