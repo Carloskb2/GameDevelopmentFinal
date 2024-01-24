@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class GroundDetector : MonoBehaviour
 {
+    [SerializeField]
+    PlayerHealth playerHealth;
     public Collider2D agentCollider;
     public LayerMask groundMask;
 
     public bool isGrounded = false;
+    public float fallThreshold = -10f; // Set this to the Y-coordinate below which the player should respawn
+
 
     [Header("Gizmo parameters:")]
     [Range(-2f, 2f)]
@@ -22,6 +26,29 @@ public class GroundDetector : MonoBehaviour
     {
         if (agentCollider == null)
             agentCollider = GetComponent<Collider2D>();
+    }
+
+    void Update()
+    {
+        CheckIsGrounded();
+
+        // Check if player has fallen below the threshold
+        if (transform.position.y < fallThreshold)
+        {
+            RespawnPlayer();
+        }
+    }
+
+    private void RespawnPlayer()
+    {
+        if (playerHealth != null)
+        {
+            playerHealth.Respawn();
+        }
+        else
+        {
+            Debug.LogError("PlayerHealth component not found on the player.");
+        }
     }
 
     public void CheckIsGrounded()

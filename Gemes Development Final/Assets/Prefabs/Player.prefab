@@ -478,11 +478,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00eb25ac880a74b499257f2311bf9d67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   agentCollider: {fileID: 8254668316890355396}
   groundMask:
     serializedVersion: 2
     m_Bits: 8448
   isGrounded: 0
+  fallThreshold: -10
   boxCastYOffset: -0.46
   boxCastXOffset: 0.02
   boxCastWidth: 0.5

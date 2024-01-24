@@ -14,7 +14,7 @@ public class PlayerHealth : ScriptableObject
         }
     }
 
-    private void Respawn()
+    public void Respawn()
     {
         health = 100; // Reset health
 
