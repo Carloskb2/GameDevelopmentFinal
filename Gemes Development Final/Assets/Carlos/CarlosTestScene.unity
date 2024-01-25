@@ -2398,6 +2398,40 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 100
   spawnPointIndex: 0
+--- !u!114 &2005448857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005448852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  isGrayscale: 0
+--- !u!1 &2072837201 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4657188262335181851, guid: f3bee4447ea774177a69c67a942e31b6,
+    type: 3}
+  m_PrefabInstance: {fileID: 2005448850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2072837204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072837201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  isGrayscale: 0
 --- !u!1 &2081058405
 GameObject:
   m_ObjectHideFlags: 0
