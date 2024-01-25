@@ -3,31 +3,32 @@ using UnityEngine;
 public class ShaderToggle : MonoBehaviour
 {
     public Shader grayscaleShader;
+    public CollectableID myID; // The ID this object responds to
     private Shader originalShader;
     private Material tilemapMaterial;
 
-    private bool isGrayscale = true; // Start with grayscale
+    private bool isGrayscale = true;
 
     void Start()
     {
         tilemapMaterial = GetComponent<Renderer>().material;
         originalShader = tilemapMaterial.shader;
-
-        // Apply grayscale shader initially
         ToggleShader(isGrayscale);
-
-        Collectable.OnCollected += HandleCollectableCollected; // Subscribe to the event
+        Collectable.OnCollected += HandleCollectableCollected;
     }
 
     void OnDestroy()
     {
-        Collectable.OnCollected -= HandleCollectableCollected; // Unsubscribe from the event
+        Collectable.OnCollected -= HandleCollectableCollected;
     }
 
-    private void HandleCollectableCollected()
+    private void HandleCollectableCollected(CollectableID id)
     {
-        isGrayscale = !isGrayscale; // Toggle the state
-        ToggleShader(isGrayscale);
+        if (myID == id)
+        {
+            isGrayscale = !isGrayscale;
+            ToggleShader(isGrayscale);
+        }
     }
 
     public void ToggleShader(bool toGrayscale)

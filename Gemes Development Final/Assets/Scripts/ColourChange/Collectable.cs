@@ -2,15 +2,18 @@
 
 public class Collectable : MonoBehaviour
 {
-    public delegate void CollectedAction();
+    public CollectableID collectableID; // Reference to the shared ID
+
+    public delegate void CollectedAction(CollectableID id);
     public static event CollectedAction OnCollected;
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            OnCollected?.Invoke(); // Trigger the event
-            gameObject.SetActive(false); // Optionally hide or destroy the collectable
+            OnCollected?.Invoke(collectableID); // Pass the ID when collected
+            gameObject.SetActive(false); // Hide or destroy the collectable
         }
     }
 }
+
