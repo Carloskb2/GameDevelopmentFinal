@@ -6,7 +6,8 @@ public class EnemyPatrol : MonoBehaviour
     public Transform[] waypoints;
     public float speed = 2.0f;
     public Vector2 randomIntervalRange = new Vector2(2, 5); // Min and Max range for random interval
-
+    [SerializeField]
+    private Collider2D attackCollider;
     private Animator animator;
     private int currentWaypointIndex = 0;
     private float changeWaypointTime = 0f;
@@ -63,9 +64,9 @@ public class EnemyPatrol : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D attackColider)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (attackColider.gameObject.CompareTag("Player"))
         {
             animator.SetBool("isAttacking", true);
             animator.SetBool("isWalking", false);
@@ -73,14 +74,31 @@ public class EnemyPatrol : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D attackCollider)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (attackCollider.gameObject.CompareTag("Player"))
         {
+            print("Attack");
             animator.SetBool("isAttacking", false);
             // Resume patrol movement animation
             UpdateMovementAnimation();
         }
+    }
+
+    void OnEnable()
+    {
+        PlayerHealth.OnPlayerDestroyed += HandlePlayerRespawned;
+    }
+
+    void OnDisable()
+    {
+        PlayerHealth.OnPlayerDestroyed -= HandlePlayerRespawned;
+    }
+
+    private void HandlePlayerRespawned()
+    {
+        animator.SetBool("isAttacking", false);
+        UpdateMovementAnimation();
     }
 
     private void UpdateMovementAnimation()
