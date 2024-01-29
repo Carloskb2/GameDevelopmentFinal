@@ -12,9 +12,9 @@ public class HealthBar : MonoBehaviour
 
     [Header("Camera Shake:")]
     [SerializeField]
-    float duration;
+    float duration; // recomended value 0.4
     [SerializeField]
-    float magnitude;
+    float magnitude; // recomended value 0.8
 
 
     private int previousHealth;
