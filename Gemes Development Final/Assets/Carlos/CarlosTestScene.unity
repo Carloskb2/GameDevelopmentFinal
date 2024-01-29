@@ -2766,6 +2766,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 040442b574827b24ead62bb698311e0b, type: 2}
+--- !u!61 &1277385601 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 617604637, guid: 722924ec8a0056f4a8fb443b2fb65ff9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1899586258}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1277385602 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 617604634, guid: 722924ec8a0056f4a8fb443b2fb65ff9,
+    type: 3}
+  m_PrefabInstance: {fileID: 1899586258}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1287298518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4310,10 +4322,18 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 617604634, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
+      propertyPath: m_Offset.x
+      value: 8.42
+      objectReference: {fileID: 0}
     - target: {fileID: 617604636, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
       propertyPath: speed
-      value: 20
+      value: 3.5
       objectReference: {fileID: 0}
+    - target: {fileID: 617604636, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
+      propertyPath: attackCollider
+      value: 
+      objectReference: {fileID: 1277385602}
     - target: {fileID: 617604636, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
@@ -4334,6 +4354,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 617604637, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
+      propertyPath: m_Offset.x
+      value: 4.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 617604638, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
+      propertyPath: damageCollider
+      value: 
+      objectReference: {fileID: 1277385601}
     - target: {fileID: 1000010208881502, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
       propertyPath: m_Name
       value: Rogue_01
