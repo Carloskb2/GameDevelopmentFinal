@@ -155,6 +155,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &13667481 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 1369515640717816522, guid: a97277aadd1a4e9449b3d8f78d1440e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1369515640718336072}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &28103033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5243,6 +5249,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 886497434}
     m_Modifications:
+    - target: {fileID: 1892334185325016928, guid: c70f4aba644c4f74786dbbd79ccab368,
+        type: 3}
+      propertyPath: virtualCamera
+      value: 
+      objectReference: {fileID: 13667481}
     - target: {fileID: 1892334185325016934, guid: c70f4aba644c4f74786dbbd79ccab368,
         type: 3}
       propertyPath: m_Name
