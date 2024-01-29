@@ -9,6 +9,14 @@ public class HealthBar : MonoBehaviour
     public AudioSource hitSound; // Assign this in the Inspector
     public Camera virtualCamera; // Assign CM Vcam1 
 
+
+    [Header("Camera Shake:")]
+    [SerializeField]
+    float duration;
+    [SerializeField]
+    float magnitude;
+
+
     private int previousHealth;
 
     void OnEnable()
@@ -42,8 +50,8 @@ public class HealthBar : MonoBehaviour
         // camera shake logic
         print("shaking Camera");
         Vector3 originalPos = virtualCamera.transform.position;
-        float duration = 0.1f; // Duration of the shake
-        float magnitude = 0.9f; // Magnitude of the shake
+        //duration = 0.2f; // Duration of the shake
+        //magnitude = 0.9f; // Magnitude of the shake
 
         for (float elapsed = 0; elapsed < duration; elapsed += Time.deltaTime)
         {

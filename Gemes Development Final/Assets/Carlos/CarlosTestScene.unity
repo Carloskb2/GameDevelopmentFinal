@@ -5251,6 +5251,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1892334185325016928, guid: c70f4aba644c4f74786dbbd79ccab368,
         type: 3}
+      propertyPath: duration
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892334185325016928, guid: c70f4aba644c4f74786dbbd79ccab368,
+        type: 3}
+      propertyPath: magnitude
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892334185325016928, guid: c70f4aba644c4f74786dbbd79ccab368,
+        type: 3}
       propertyPath: virtualCamera
       value: 
       objectReference: {fileID: 13667481}
