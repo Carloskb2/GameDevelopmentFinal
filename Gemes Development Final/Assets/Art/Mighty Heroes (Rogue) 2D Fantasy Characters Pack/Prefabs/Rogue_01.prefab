@@ -184,6 +184,7 @@ GameObject:
   - component: {fileID: 617604634}
   - component: {fileID: 617604637}
   - component: {fileID: 617604638}
+  - component: {fileID: 1277385605}
   m_Layer: 0
   m_Name: Rogue_01
   m_TagString: Untagged
@@ -243,9 +244,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  speed: 1.8
+  speed: 3.5
   randomIntervalRange: {x: 2, y: 5}
-  attackCollider: {fileID: 617604637}
+  attackCollider: {fileID: 617604634}
 --- !u!61 &617604634
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -259,7 +260,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 4.51, y: 3.65}
+  m_Offset: {x: 8.42, y: 3.65}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -285,7 +286,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 7.2, y: 3.65}
+  m_Offset: {x: 4.05, y: 3.65}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -313,7 +314,23 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 50
   spawnPointIndex: 1
-  damageCollider: {fileID: 617604634}
+  damageCollider: {fileID: 617604637}
+--- !u!70 &1277385605
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010208881502}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.22, y: 3.74}
+  m_Size: {x: 4.5, y: 8}
+  m_Direction: 0
 --- !u!1 &1000010251440012
 GameObject:
   m_ObjectHideFlags: 0
