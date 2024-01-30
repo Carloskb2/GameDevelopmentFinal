@@ -1433,7 +1433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &642232998
 Transform:
   m_ObjectHideFlags: 0
@@ -2943,40 +2943,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 040442b574827b24ead62bb698311e0b, type: 2}
---- !u!1 &1277385599 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1000010208881502, guid: 722924ec8a0056f4a8fb443b2fb65ff9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1899586258}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1277385601 stripped
-BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 617604637, guid: 722924ec8a0056f4a8fb443b2fb65ff9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1899586258}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &1277385602 stripped
-BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 617604634, guid: 722924ec8a0056f4a8fb443b2fb65ff9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1899586258}
-  m_PrefabAsset: {fileID: 0}
---- !u!70 &1277385605
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1277385599}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.22, y: 3.74}
-  m_Size: {x: 4.5, y: 8}
-  m_Direction: 0
 --- !u!1001 &1287298518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4517,22 +4483,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1605688047}
     m_Modifications:
-    - target: {fileID: 617604634, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 617604634, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
-      propertyPath: m_Offset.x
-      value: 8.42
-      objectReference: {fileID: 0}
-    - target: {fileID: 617604636, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
-      propertyPath: speed
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 617604636, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
-      propertyPath: attackCollider
-      value: 
-      objectReference: {fileID: 1277385602}
     - target: {fileID: 617604636, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
@@ -4549,18 +4499,6 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[3]
       value: 
       objectReference: {fileID: 1139667833}
-    - target: {fileID: 617604637, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 617604637, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
-      propertyPath: m_Offset.x
-      value: 4.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 617604638, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
-      propertyPath: damageCollider
-      value: 
-      objectReference: {fileID: 1277385601}
     - target: {fileID: 1000010208881502, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
       propertyPath: m_Name
       value: Rogue_01

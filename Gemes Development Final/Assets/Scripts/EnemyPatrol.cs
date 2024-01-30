@@ -6,11 +6,13 @@ public class EnemyPatrol : MonoBehaviour
     public Transform[] waypoints;
     public float speed = 2.0f;
     public Vector2 randomIntervalRange = new Vector2(2, 5); // Min and Max range for random interval
+    [Header("Collider:")]
     [SerializeField]
     private Collider2D attackCollider;
     private Animator animator;
     private int currentWaypointIndex = 0;
     private float changeWaypointTime = 0f;
+    private bool isTurningAround = false;
 
     void Start()
     {
@@ -27,6 +29,8 @@ public class EnemyPatrol : MonoBehaviour
             SetRandomWaypoint();
             SetNextChangeWaypointTime();
         }
+
+
     }
 
     private void SetRandomWaypoint()
@@ -40,6 +44,11 @@ public class EnemyPatrol : MonoBehaviour
     }
     private void MoveAndFlipSprite()
     {
+        if (isTurningAround)
+        {
+            return; // Skip the rest of the method
+        }
+
         Vector3 direction = waypoints[currentWaypointIndex].position - transform.position;
         if (direction.magnitude > 0.1f)
         {
@@ -73,7 +82,7 @@ public class EnemyPatrol : MonoBehaviour
             animator.SetBool("isStill", false);
         }
     }
-
+    
     private void OnTriggerExit2D(Collider2D attackCollider)
     {
         if (attackCollider.gameObject.CompareTag("Player"))
@@ -83,6 +92,25 @@ public class EnemyPatrol : MonoBehaviour
             // Resume patrol movement animation
             UpdateMovementAnimation();
         }
+
+    }
+
+    public void TurnAround()
+    {
+        print("turn");
+        isTurningAround = true; // Enable turn around mode
+
+        Vector3 direction = waypoints[currentWaypointIndex].position - transform.position;
+        // Flip the enemy to face the opposite direction
+        transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+
+        StartCoroutine(ResetTurnAround()); // Reset after a delay
+    }
+
+    private IEnumerator ResetTurnAround()
+    {
+        yield return new WaitForSeconds(1f); // Delay before resetting, adjust as needed
+        isTurningAround = false;
     }
 
     void OnEnable()
