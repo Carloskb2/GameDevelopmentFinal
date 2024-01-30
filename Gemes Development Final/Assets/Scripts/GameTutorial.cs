@@ -9,10 +9,10 @@ public class GameTutorial : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(TutorialSequence());
+        StartCoroutine(InitialTutorialSequence());
     }
 
-    IEnumerator TutorialSequence()
+    IEnumerator InitialTutorialSequence()
     {
         // Pause and show 'D' instruction
         Time.timeScale = 0f;
@@ -37,5 +37,23 @@ public class GameTutorial : MonoBehaviour
 
         // Hide instruction text
         instructionText.text = "";
+    }
+
+    public void StartClimbingTutorial()
+    {
+        StartCoroutine(ClimbingTutorialSequence());
+    }
+
+    IEnumerator ClimbingTutorialSequence()
+    {
+        // Pause and show climbing instructions
+        Time.timeScale = 0f;
+        instructionText.text = "Press 'W' to climb up, 'S' to climb down";
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S));
+
+        // Resume game and clear text
+        Time.timeScale = 1f;
+        instructionText.text = "";
+        yield return new WaitForSeconds(pauseDuration);
     }
 }
