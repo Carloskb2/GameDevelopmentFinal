@@ -23,6 +23,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip enemyMoveSound;
     public AudioClip enemyIdleSound;
     public AudioClip enemyAttackSound;
+    public AudioClip enemyDieSound;
 
     [Header("Ambience Sounds")]
     public AudioClip ambience1;

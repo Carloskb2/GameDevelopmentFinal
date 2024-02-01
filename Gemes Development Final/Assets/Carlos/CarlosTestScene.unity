@@ -1151,6 +1151,67 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
   myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+--- !u!1 &416796383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 416796385}
+  - component: {fileID: 416796384}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &416796384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416796383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be71fd54482b644a887f2100fed9a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicTracks: []
+  musicTrackIndex: 0
+  stepSound: {fileID: 0}
+  jumpSound: {fileID: 0}
+  fallSound: {fileID: 0}
+  climbUpSound: {fileID: 0}
+  climbDownSound: {fileID: 0}
+  getHitSound: {fileID: 0}
+  dieSound: {fileID: 0}
+  winSound: {fileID: 0}
+  enemyMoveSound: {fileID: 0}
+  enemyIdleSound: {fileID: 0}
+  enemyAttackSound: {fileID: 0}
+  enemyDieSound: {fileID: 0}
+  ambience1: {fileID: 0}
+  ambience2: {fileID: 0}
+  ambience3: {fileID: 0}
+  ambienceMixerGroup: {fileID: 24300002, guid: 9b9a9fa8e641a0948847e0e8650483c5, type: 2}
+--- !u!4 &416796385
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416796383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &468740392 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3910380027506488544, guid: 656834975ee0e4b63bfb53d5ddea5cee,
@@ -1560,7 +1621,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &755116264
 PrefabInstance:
@@ -5489,7 +5550,7 @@ PrefabInstance:
     - target: {fileID: 4338188887527562476, guid: 264550358f85c2046bb80cf3c9caee3a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4338188887527562476, guid: 264550358f85c2046bb80cf3c9caee3a,
         type: 3}
@@ -5545,6 +5606,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GameTutorial
+      objectReference: {fileID: 0}
+    - target: {fileID: 4338188887527562478, guid: 264550358f85c2046bb80cf3c9caee3a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4338188887527562479, guid: 264550358f85c2046bb80cf3c9caee3a,
         type: 3}
