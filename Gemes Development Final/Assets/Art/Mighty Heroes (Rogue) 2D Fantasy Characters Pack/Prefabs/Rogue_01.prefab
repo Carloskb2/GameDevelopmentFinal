@@ -2016,10 +2016,20 @@ PrefabInstance:
       propertyPath: enemyGO
       value: 
       objectReference: {fileID: 1000010208881502}
+    - target: {fileID: 7456638903735711863, guid: 442d11b4fa2d71541a855e9fbe6630f2,
+        type: 3}
+      propertyPath: bounceForce
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7963213347664589406, guid: 442d11b4fa2d71541a855e9fbe6630f2,
         type: 3}
       propertyPath: m_Name
       value: EnemyComponent
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895237673200709553, guid: 442d11b4fa2d71541a855e9fbe6630f2,
+        type: 3}
+      propertyPath: stopAction
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 442d11b4fa2d71541a855e9fbe6630f2, type: 3}
