@@ -4579,10 +4579,6 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[3]
       value: 
       objectReference: {fileID: 1139667833}
-    - target: {fileID: 2088398016, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
-      propertyPath: bounceForce
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 1000010208881502, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
       propertyPath: m_Name
       value: Rogue_01
@@ -4630,21 +4626,6 @@ PrefabInstance:
     - target: {fileID: 4000010141028922, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2020275770084096772, guid: 722924ec8a0056f4a8fb443b2fb65ff9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2020275770084096774, guid: 722924ec8a0056f4a8fb443b2fb65ff9,
-        type: 3}
-      propertyPath: stopAction
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2020275770084096774, guid: 722924ec8a0056f4a8fb443b2fb65ff9,
-        type: 3}
-      propertyPath: playOnAwake
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 722924ec8a0056f4a8fb443b2fb65ff9, type: 3}
