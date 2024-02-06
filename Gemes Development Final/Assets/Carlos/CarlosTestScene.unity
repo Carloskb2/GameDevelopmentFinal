@@ -4296,6 +4296,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
   myID: {fileID: 11400000, guid: 92d874d198bf101489cb37b65ee95bc6, type: 2}
+--- !u!1 &1712098947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8331526429636921245, guid: 9b14d8e9e8e25304baf3482ed695d4a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 8331526430207052062}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1713647172 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6925884838918348535, guid: 656834975ee0e4b63bfb53d5ddea5cee,
@@ -5754,6 +5760,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835490558837625908, guid: 8029604108539b443aeb0e34f13b3429,
+        type: 3}
+      propertyPath: portal
+      value: 
+      objectReference: {fileID: 1712098947}
+    - target: {fileID: 8835490558837625908, guid: 8029604108539b443aeb0e34f13b3429,
+        type: 3}
+      propertyPath: collectablesNeeded
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8835490558837625909, guid: 8029604108539b443aeb0e34f13b3429,
         type: 3}

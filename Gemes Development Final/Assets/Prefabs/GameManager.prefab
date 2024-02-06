@@ -45,3 +45,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentLevel: CarlosTestScene
   nextLevel: CarlosTestScene
+  collectablesNeeded: 3
+  collectablesCollected: 0
+  portal: {fileID: 0}
