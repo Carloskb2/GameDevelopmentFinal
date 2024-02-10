@@ -48,14 +48,17 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Background
     uniqueID: 2603649445
     locked: 0
+  - name: Floor
+    uniqueID: 1452137081
+    locked: 0
   - name: BehindParticles
     uniqueID: 2782418837
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: MiddleRockWall
     uniqueID: 388095253

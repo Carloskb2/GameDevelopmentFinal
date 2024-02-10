@@ -2026,6 +2026,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyComponent
       objectReference: {fileID: 0}
+    - target: {fileID: 8895237673200709552, guid: 442d11b4fa2d71541a855e9fbe6630f2,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8895237673200709552, guid: 442d11b4fa2d71541a855e9fbe6630f2,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -929201549
+      objectReference: {fileID: 0}
     - target: {fileID: 8895237673200709553, guid: 442d11b4fa2d71541a855e9fbe6630f2,
         type: 3}
       propertyPath: stopAction
