@@ -6,7 +6,6 @@ public class HealthBar : MonoBehaviour
 {
     public PlayerHealth playerHealth; // Reference to the PlayerHealth ScriptableObject
     public Image healthBarImage; // Reference to the health bar Image
-    public AudioSource hitSound; // Assign this in the Inspector
     public Camera virtualCamera; // Assign CM Vcam1 
 
 
@@ -38,7 +37,12 @@ public class HealthBar : MonoBehaviour
         if (newHealth < previousHealth) // Check if health has decreased
         {
             print("Hit");
-            hitSound.Play(); // Play hit/scream sound
+            // Check if AudioManager instance is available
+            if (AudioManager.Instance != null)
+            {
+                // Play the Get Hit Sound
+                AudioManager.Instance.PlaySound(AudioManager.Instance.getHitSound);
+            }
             StartCoroutine(ShakeCamera()); // Trigger camera shake
         }
 
