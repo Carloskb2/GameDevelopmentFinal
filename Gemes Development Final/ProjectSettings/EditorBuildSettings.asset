@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Caleb/Level2.unity
     guid: 434ca9caefa041142a528465494b1e80
+  - enabled: 1
+    path: Assets/Caleb/Level3.unity
+    guid: a58bc6e36c9a177459448e69a1411a9f
   m_configObjects: {}
