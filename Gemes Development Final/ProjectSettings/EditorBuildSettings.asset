@@ -6,12 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Carlos/CarlosTestScene.unity
-    guid: d27b0c414b5850a4e8acbc5ce62fcbfc
-  - enabled: 1
     path: Assets/Caleb/Level1.unity
+<<<<<<< HEAD
     guid: dfb40207cbc2f59488d076e9b8cb2bba
   - enabled: 1
     path: Assets/Caleb/Level2.unity
     guid: c51cb69d0c5087c46ac18ba39247bbd4
+=======
+    guid: 76c45f53a661db84e86ec6c323c34230
+  - enabled: 1
+    path: Assets/Caleb/Level2.unity
+    guid: 434ca9caefa041142a528465494b1e80
+  - enabled: 1
+    path: Assets/Caleb/Level3.unity
+    guid: a58bc6e36c9a177459448e69a1411a9f
+>>>>>>> main
   m_configObjects: {}

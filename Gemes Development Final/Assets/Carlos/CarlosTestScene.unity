@@ -1187,7 +1187,7 @@ MonoBehaviour:
   fallSound: {fileID: 0}
   climbUpSound: {fileID: 0}
   climbDownSound: {fileID: 0}
-  getHitSound: {fileID: 0}
+  getHitSound: {fileID: 8300000, guid: cfa2654a1b280c142816731c90657712, type: 3}
   dieSound: {fileID: 0}
   winSound: {fileID: 0}
   enemyMoveSound: {fileID: 0}
@@ -5424,6 +5424,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 886497434}
     m_Modifications:
+    - target: {fileID: 141351189, guid: c70f4aba644c4f74786dbbd79ccab368, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1892334185325016928, guid: c70f4aba644c4f74786dbbd79ccab368,
         type: 3}
       propertyPath: duration
@@ -5549,7 +5553,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 141351189, guid: c70f4aba644c4f74786dbbd79ccab368, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c70f4aba644c4f74786dbbd79ccab368, type: 3}
 --- !u!1001 &4338188885994959078
 PrefabInstance:
