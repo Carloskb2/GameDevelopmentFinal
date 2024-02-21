@@ -121,6 +121,45 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &2568254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2568255}
+  - component: {fileID: 2568256}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2568255
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2568254}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1377142143}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &2568256
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2568254}
+  m_Enabled: 1
 --- !u!4 &6479275 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 301247385973904427, guid: 23b6d7404701c46198be38fb99df5079,
@@ -1578,6 +1617,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 8835490558837625909, guid: 8029604108539b443aeb0e34f13b3429,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8029604108539b443aeb0e34f13b3429, type: 3}
 --- !u!4 &318775211 stripped
@@ -1648,7 +1692,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327677281}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.69, y: 3.35, z: 0}
+  m_LocalPosition: {x: 20.69, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 82410685}
@@ -3236,6 +3280,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameTutorial
       objectReference: {fileID: 0}
+    - target: {fileID: 4338188887527562478, guid: 264550358f85c2046bb80cf3c9caee3a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4338188887527562479, guid: 264550358f85c2046bb80cf3c9caee3a,
         type: 3}
       propertyPath: instructionText
@@ -4760,7 +4809,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105020422}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.52, y: 3.05, z: 0}
+  m_LocalPosition: {x: -17.52, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 82410685}
@@ -5788,6 +5837,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6268610705708611292, guid: d1065c7cde7574c9993a80bf92e80bba,
     type: 3}
   m_PrefabInstance: {fileID: 1997806415746836017}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1377142143 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1369515642120210888, guid: a97277aadd1a4e9449b3d8f78d1440e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1369515640718336072}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1377671785 stripped
 Transform:
@@ -8054,7 +8109,7 @@ PrefabInstance:
     - target: {fileID: 5121348273278601021, guid: 1910d93e2ea9bcc45856b9530151034d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5121348273278601021, guid: 1910d93e2ea9bcc45856b9530151034d,
         type: 3}
@@ -10176,6 +10231,11 @@ PrefabInstance:
     - target: {fileID: 1369515641869765711, guid: a97277aadd1a4e9449b3d8f78d1440e6,
         type: 3}
       propertyPath: m_TrackedObjectOffset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1369515642120210742, guid: a97277aadd1a4e9449b3d8f78d1440e6,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1369515642120210888, guid: a97277aadd1a4e9449b3d8f78d1440e6,

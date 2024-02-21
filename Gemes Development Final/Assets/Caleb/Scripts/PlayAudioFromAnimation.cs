@@ -6,11 +6,19 @@ public class PlayAudioFromAnimation : MonoBehaviour
 {
     AudioSource sfxSource;
     Animator animator;
+    GroundDetector detector;
+    AudioManager audioManager;
 
     private void Awake()
     {
         sfxSource = gameObject.GetComponent<AudioSource>();
         animator = gameObject.GetComponent<Animator>();
+    }
+
+    private void Start()
+    {
+        detector = FindObjectOfType<GroundDetector>();
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     public void PlaySound(AudioClip clip)
@@ -20,13 +28,12 @@ public class PlayAudioFromAnimation : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle") || !animator.enabled)
-        {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Idle") ||
+            animator.GetCurrentAnimatorStateInfo(0).IsName("Rogue_idle_01") ||
+            !animator.enabled)
             sfxSource.Stop();
-        }else if (animator.GetCurrentAnimatorStateInfo(0).IsName("Fall"))
-        {
 
-        }
-
+        if (transform.position.y < detector.fallThreshold + 1)
+            audioManager.PlaySound(audioManager.dieSound);
     }
 }

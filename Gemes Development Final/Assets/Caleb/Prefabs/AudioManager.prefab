@@ -43,7 +43,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5be71fd54482b644a887f2100fed9a1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicTracks: []
+  musicTracks:
+  - {fileID: 8300000, guid: 203993b68cc753b4984044a7659f5447, type: 3}
+  - {fileID: 8300000, guid: 203993b68cc753b4984044a7659f5447, type: 3}
+  - {fileID: 8300000, guid: 203993b68cc753b4984044a7659f5447, type: 3}
+  - {fileID: 8300000, guid: 203993b68cc753b4984044a7659f5447, type: 3}
+  - {fileID: 8300000, guid: 203993b68cc753b4984044a7659f5447, type: 3}
+  - {fileID: 8300000, guid: 203993b68cc753b4984044a7659f5447, type: 3}
   musicTrackIndex: 0
   stepSound: {fileID: 0}
   jumpSound: {fileID: 0}
@@ -51,13 +57,13 @@ MonoBehaviour:
   climbUpSound: {fileID: 0}
   climbDownSound: {fileID: 0}
   getHitSound: {fileID: 8300000, guid: cfa2654a1b280c142816731c90657712, type: 3}
-  dieSound: {fileID: 0}
+  dieSound: {fileID: 8300000, guid: 6984e4820abf86f4da5b1e95ab922e39, type: 3}
   winSound: {fileID: 0}
   enemyMoveSound: {fileID: 0}
   enemyIdleSound: {fileID: 0}
-  enemyAttackSound: {fileID: 0}
-  enemyDieSound: {fileID: 0}
-  ambience1: {fileID: 0}
-  ambience2: {fileID: 0}
+  enemyAttackSound: {fileID: 8300000, guid: 74bae495797c5af4ca5e526d950aaf41, type: 3}
+  enemyDieSound: {fileID: 8300000, guid: 5bd7c863457a5f441a01d27994bf91f3, type: 3}
+  ambience1: {fileID: 8300000, guid: 20266366aaa9c9346b1263a7c296d8c5, type: 3}
+  ambience2: {fileID: 8300000, guid: a57f19f327862494985afbe44cbcb531, type: 3}
   ambience3: {fileID: 0}
   ambienceMixerGroup: {fileID: 24300002, guid: 9b9a9fa8e641a0948847e0e8650483c5, type: 2}
