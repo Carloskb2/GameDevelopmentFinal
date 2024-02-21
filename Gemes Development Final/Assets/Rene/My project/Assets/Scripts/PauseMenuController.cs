@@ -42,9 +42,9 @@ public class PauseMenuController : MonoBehaviour
     }
 
     // Placeholder for options menu functionality.
-    public void OpenOptions()
+    public void RestartGame()
     {
-        Debug.Log("Open options menu here."); // Placeholder for actual implementation.
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     // Loads the main menu scene.

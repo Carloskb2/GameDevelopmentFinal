@@ -20,15 +20,20 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -3658468516032437985, guid: 31e82f5eaa4e3b64082ddb3d16a637af, type: 3}
+      value: {fileID: -3658468516032437985, guid: 31e82f5eaa4e3b64082ddb3d16a637af,
+        type: 3}
     - time: 0.1
-      value: {fileID: 8802175461109662246, guid: 31e82f5eaa4e3b64082ddb3d16a637af, type: 3}
+      value: {fileID: 8802175461109662246, guid: 31e82f5eaa4e3b64082ddb3d16a637af,
+        type: 3}
     - time: 0.21666667
-      value: {fileID: 1831569462725350632, guid: 31e82f5eaa4e3b64082ddb3d16a637af, type: 3}
+      value: {fileID: 1831569462725350632, guid: 31e82f5eaa4e3b64082ddb3d16a637af,
+        type: 3}
     - time: 0.31666666
-      value: {fileID: -1956542710265927130, guid: 31e82f5eaa4e3b64082ddb3d16a637af, type: 3}
+      value: {fileID: -1956542710265927130, guid: 31e82f5eaa4e3b64082ddb3d16a637af,
+        type: 3}
     - time: 0.41666666
-      value: {fileID: -3658468516032437985, guid: 31e82f5eaa4e3b64082ddb3d16a637af, type: 3}
+      value: {fileID: -3658468516032437985, guid: 31e82f5eaa4e3b64082ddb3d16a637af,
+        type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -77,4 +82,12 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: PlaySound
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 3a6d5799e7037984099423c7cde1aca1,
+      type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
