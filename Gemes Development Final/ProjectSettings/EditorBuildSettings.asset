@@ -12,18 +12,18 @@ EditorBuildSettings:
     path: Assets/Caleb/Level 1.unity
     guid: 76c45f53a661db84e86ec6c323c34230
   - enabled: 1
-    path: Assets/Caleb/Level 2.unity
-    guid: 434ca9caefa041142a528465494b1e80
+    path: Assets/Iatisam/Scenes/Level 2.unity
+    guid: 86fc8931ed8c89f4cb0d1a32d36310eb
   - enabled: 1
     path: Assets/Caleb/Level 3.unity
+    guid: 434ca9caefa041142a528465494b1e80
+  - enabled: 1
+    path: Assets/Caleb/Level 4.unity
     guid: a58bc6e36c9a177459448e69a1411a9f
   - enabled: 1
-    path: Assets/Iatisam/Scenes/Level 4.unity
-    guid: 87f64e2387c9548debdb08af9032e63b
-  - enabled: 1
     path: Assets/Iatisam/Scenes/Level 5.unity
-    guid: 45e8e6e7a634a4ddaa68c629a24d2e5e
+    guid: c9f3bae2705e42d48ad9a08450309c2e
   - enabled: 1
     path: Assets/Iatisam/Scenes/Level 6.unity
-    guid: 1cddcefc469b340ffb554b50fe8ef434
+    guid: 4781d15ebd11bda4c97c83a72c0d0972
   m_configObjects: {}
