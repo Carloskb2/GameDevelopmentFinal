@@ -25431,6 +25431,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+--- !u!114 &1734140907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734140904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6377256371d35524d935bb9da8b62c2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
+  damage: 20
+  spawnPointIndex: 0
+  damageCollider: {fileID: 1734140908}
 --- !u!61 &1734140908
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25441,7 +25457,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
