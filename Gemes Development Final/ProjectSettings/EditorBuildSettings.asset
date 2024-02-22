@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Rene/My project/Assets/Scenes/Level Selection Menu.unity
-    guid: 95ef6cb6c61714dd6a3da989bec7a140
   - enabled: 1
     path: Assets/Caleb/Level Selection Menu.unity
     guid: b2c00832f96db42a5bf8fbe4a08dca3b
@@ -20,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Caleb/Level 3.unity
     guid: a58bc6e36c9a177459448e69a1411a9f
+  - enabled: 1
+    path: Assets/Iatisam/Scenes/Level 4.unity
+    guid: 87f64e2387c9548debdb08af9032e63b
+  - enabled: 1
+    path: Assets/Iatisam/Scenes/Level 5.unity
+    guid: 45e8e6e7a634a4ddaa68c629a24d2e5e
+  - enabled: 1
+    path: Assets/Iatisam/Scenes/Level 6.unity
+    guid: 1cddcefc469b340ffb554b50fe8ef434
   m_configObjects: {}
