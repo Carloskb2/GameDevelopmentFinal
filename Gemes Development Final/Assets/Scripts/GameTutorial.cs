@@ -15,6 +15,7 @@ public class GameTutorial : MonoBehaviour
     IEnumerator InitialTutorialSequence()
     {
         // Pause and show 'D' instruction
+        yield return new WaitForSeconds(1.2f);
         Time.timeScale = 0f;
         instructionText.text = "Press 'D' to move forward";
         yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.D));

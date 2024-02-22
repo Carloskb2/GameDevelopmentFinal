@@ -2346,7 +2346,6 @@ MonoBehaviour:
   spawnPoints:
   - {fileID: 389878414}
   - {fileID: 1389837544}
-  - {fileID: 0}
 --- !u!4 &118453413
 Transform:
   m_ObjectHideFlags: 0
@@ -7274,12 +7273,12 @@ PrefabInstance:
     - target: {fileID: 1892334185325016928, guid: c70f4aba644c4f74786dbbd79ccab368,
         type: 3}
       propertyPath: duration
-      value: 0.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1892334185325016928, guid: c70f4aba644c4f74786dbbd79ccab368,
         type: 3}
       propertyPath: magnitude
-      value: 0.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1892334185325016928, guid: c70f4aba644c4f74786dbbd79ccab368,
         type: 3}
@@ -30175,6 +30174,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1369515640717816520, guid: a97277aadd1a4e9449b3d8f78d1440e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.4
+      objectReference: {fileID: 0}
     - target: {fileID: 1369515640717816522, guid: a97277aadd1a4e9449b3d8f78d1440e6,
         type: 3}
       propertyPath: orthographic
@@ -30243,7 +30247,7 @@ PrefabInstance:
     - target: {fileID: 1369515642120210888, guid: a97277aadd1a4e9449b3d8f78d1440e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.44
+      value: -7.4
       objectReference: {fileID: 0}
     - target: {fileID: 1369515642120210888, guid: a97277aadd1a4e9449b3d8f78d1440e6,
         type: 3}
