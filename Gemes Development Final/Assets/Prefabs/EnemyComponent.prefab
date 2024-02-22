@@ -71,8 +71,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7456638903629580755}
-  - component: {fileID: 7456638903629580753}
   - component: {fileID: 7456638903629580754}
+  - component: {fileID: 7904121750483714834}
   m_Layer: 16
   m_Name: DamageCaused
   m_TagString: Untagged
@@ -94,22 +94,6 @@ Transform:
   m_Father: {fileID: 1464429001076554551}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7456638903629580753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7456638903629580756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6377256371d35524d935bb9da8b62c2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 50
-  spawnPointIndex: 1
-  damageCollider: {fileID: 7456638903629580754}
 --- !u!61 &7456638903629580754
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -136,6 +120,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.3, y: 7.4}
   m_EdgeRadius: 0
+--- !u!114 &7904121750483714834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7456638903629580756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5733e344f6ad8544e84b4ebbdfb1f34f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
+  damage: 50
+  damageCollider: {fileID: 7456638903629580754}
 --- !u!1 &7456638903735711754
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,6 +209,7 @@ MonoBehaviour:
   enemyGO: {fileID: 0}
   deathEffectPrefab: {fileID: 8895237673200709555}
   headCollider: {fileID: 7456638903735711752}
+  bounceForce: 10
 --- !u!1 &7963213347664589406
 GameObject:
   m_ObjectHideFlags: 0
