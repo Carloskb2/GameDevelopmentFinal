@@ -8180,27 +8180,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2048782008}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2048782010 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5124140773013850212, guid: 1910d93e2ea9bcc45856b9530151034d,
-    type: 3}
-  m_PrefabInstance: {fileID: 2048782008}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2048782011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048782010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5733e344f6ad8544e84b4ebbdfb1f34f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 50
-  damageCollider: {fileID: 0}
 --- !u!4 &2058919051 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040220587255358460, guid: 28537991e235344bc8fcadc92be8409c,
