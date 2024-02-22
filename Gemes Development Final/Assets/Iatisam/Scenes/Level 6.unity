@@ -6046,7 +6046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 10
+  damage: 5
   damageCollider: {fileID: 0}
 --- !u!60 &116528662
 PolygonCollider2D:
@@ -13968,7 +13968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 10
+  damage: 5
   damageCollider: {fileID: 0}
 --- !u!60 &310046899
 PolygonCollider2D:
@@ -14312,7 +14312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 10
+  damage: 5
   damageCollider: {fileID: 0}
 --- !u!60 &316800891
 PolygonCollider2D:
@@ -24318,7 +24318,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 10
+  damage: 5
   damageCollider: {fileID: 0}
 --- !u!60 &607071107
 PolygonCollider2D:
@@ -28518,7 +28518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 10
+  damage: 5
   damageCollider: {fileID: 0}
 --- !u!60 &712287437
 PolygonCollider2D:
@@ -56615,7 +56615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 10
+  damage: 5
   damageCollider: {fileID: 0}
 --- !u!60 &1176388958
 PolygonCollider2D:
@@ -64666,7 +64666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 10
+  damage: 5
   damageCollider: {fileID: 0}
 --- !u!60 &1351451976
 PolygonCollider2D:
@@ -84815,7 +84815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 10
+  damage: 5
   damageCollider: {fileID: 0}
 --- !u!60 &1683774088
 PolygonCollider2D:
@@ -104835,7 +104835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 10
+  damage: 5
   damageCollider: {fileID: 0}
 --- !u!60 &1923016903
 PolygonCollider2D:
@@ -118261,7 +118261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 10
+  damage: 5
   damageCollider: {fileID: 0}
 --- !u!60 &2135213981
 PolygonCollider2D:
