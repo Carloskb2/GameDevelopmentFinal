@@ -11401,7 +11401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 10
+  damage: 5
   damageCollider: {fileID: 0}
 --- !u!60 &233689732
 PolygonCollider2D:
@@ -19536,7 +19536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 10
+  damage: 5
   damageCollider: {fileID: 0}
 --- !u!60 &450659137
 PolygonCollider2D:
@@ -58562,6 +58562,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6759982460735042330, guid: 5b210609803658e488f512fc13a6163e,
         type: 3}
+      propertyPath: speed
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -6759982460735042330, guid: 5b210609803658e488f512fc13a6163e,
+        type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
       objectReference: {fileID: 852853741}
@@ -58587,6 +58592,14 @@ PrefabInstance:
     - target: {fileID: 4000011826580284, guid: 5b210609803658e488f512fc13a6163e, type: 3}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011826580284, guid: 5b210609803658e488f512fc13a6163e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011826580284, guid: 5b210609803658e488f512fc13a6163e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.28
       objectReference: {fileID: 0}
     - target: {fileID: 4000011826580284, guid: 5b210609803658e488f512fc13a6163e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -113263,7 +113276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
-  damage: 10
+  damage: 5
   damageCollider: {fileID: 0}
 --- !u!60 &2004625494
 PolygonCollider2D:
