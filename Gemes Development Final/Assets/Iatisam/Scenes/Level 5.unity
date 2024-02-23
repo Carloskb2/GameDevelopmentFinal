@@ -13847,8 +13847,8 @@ Transform:
   - {fileID: 1712677959}
   - {fileID: 386095626}
   - {fileID: 493523130}
-  - {fileID: 852236164}
   - {fileID: 2097397226}
+  - {fileID: 852236164}
   - {fileID: 2060555023}
   - {fileID: 692907385}
   m_Father: {fileID: 1828215459}
@@ -33706,7 +33706,7 @@ PrefabInstance:
     - target: {fileID: 2364430043273762410, guid: 5281b63ad0c4a4106beba9b1573c4343,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2364430043273762410, guid: 5281b63ad0c4a4106beba9b1573c4343,
         type: 3}
@@ -49802,7 +49802,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 20
-  damageCollider: {fileID: 1682606351}
+  damageCollider: {fileID: 0}
 --- !u!70 &1682606354
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -49816,8 +49816,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.51}
-  m_Size: {x: 0.67, y: 1.19}
+  m_Offset: {x: 0.007965157, y: 0.048815727}
+  m_Size: {x: 0.84523463, y: 1.8157759}
   m_Direction: 0
 --- !u!1001 &1683910553
 PrefabInstance:
