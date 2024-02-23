@@ -9138,8 +9138,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1996482239}
-  - {fileID: 1125093722}
   - {fileID: 811482192}
+  - {fileID: 1125093722}
   m_Father: {fileID: 521609217}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12609,6 +12609,8 @@ GameObject:
   - component: {fileID: 410795240}
   - component: {fileID: 410795238}
   - component: {fileID: 410795237}
+  - component: {fileID: 410795241}
+  - component: {fileID: 410795239}
   - component: {fileID: 410795236}
   m_Layer: 0
   m_Name: Throns_Danger_01 (6)
@@ -12631,8 +12633,8 @@ Transform:
   m_Father: {fileID: 455003537}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &410795236
-CapsuleCollider2D:
+--- !u!61 &410795236
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -12645,8 +12647,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.6299999, y: 0.71}
-  m_Direction: 1
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.63, y: 0.71}
+    newSize: {x: 1.63, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.63, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!114 &410795237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12677,6 +12689,19 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 5
   damageCollider: {fileID: 0}
+--- !u!114 &410795239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410795234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db392200f346c94182e10da733c41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!212 &410795240
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12727,6 +12752,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &410795241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410795234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!1001 &426634107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13905,6 +13944,8 @@ GameObject:
   - component: {fileID: 455003542}
   - component: {fileID: 455003539}
   - component: {fileID: 455003538}
+  - component: {fileID: 455003543}
+  - component: {fileID: 455003541}
   - component: {fileID: 455003540}
   m_Layer: 0
   m_Name: Throns_Danger_01 (6)
@@ -13921,7 +13962,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 455003536}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.026, y: 0.37140417, z: 1}
+  m_LocalPosition: {x: -0.026, y: 0.37140417, z: 0}
   m_LocalScale: {x: 0.8399999, y: 1.66, z: 0.54}
   m_Children:
   - {fileID: 1730578229}
@@ -13970,8 +14011,8 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 5
   damageCollider: {fileID: 0}
---- !u!70 &455003540
-CapsuleCollider2D:
+--- !u!61 &455003540
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -13984,8 +14025,31 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.6299999, y: 0.71}
-  m_Direction: 1
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.63, y: 0.71}
+    newSize: {x: 1.63, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.63, y: 0.71}
+  m_EdgeRadius: 0
+--- !u!114 &455003541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455003536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db392200f346c94182e10da733c41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!212 &455003542
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14036,6 +14100,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &455003543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455003536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!1001 &460154797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25227,6 +25305,8 @@ GameObject:
   - component: {fileID: 813086605}
   - component: {fileID: 813086606}
   - component: {fileID: 813086604}
+  - component: {fileID: 813086608}
+  - component: {fileID: 813086607}
   - component: {fileID: 813086603}
   m_Layer: 0
   m_Name: Throns_Danger_01 (11)
@@ -25249,8 +25329,8 @@ Transform:
   m_Father: {fileID: 455003537}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &813086603
-CapsuleCollider2D:
+--- !u!61 &813086603
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -25263,8 +25343,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.6299999, y: 0.71}
-  m_Direction: 1
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.63, y: 0.71}
+    newSize: {x: 1.63, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.63, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!114 &813086604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25345,6 +25435,33 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 5
   damageCollider: {fileID: 0}
+--- !u!114 &813086607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813086601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db392200f346c94182e10da733c41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+--- !u!114 &813086608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813086601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!1001 &813506393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26544,6 +26661,8 @@ GameObject:
   - component: {fileID: 874989774}
   - component: {fileID: 874989775}
   - component: {fileID: 874989773}
+  - component: {fileID: 874989777}
+  - component: {fileID: 874989776}
   - component: {fileID: 874989772}
   m_Layer: 0
   m_Name: Throns_Danger_01 (15)
@@ -26566,8 +26685,8 @@ Transform:
   m_Father: {fileID: 455003537}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &874989772
-CapsuleCollider2D:
+--- !u!61 &874989772
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -26579,9 +26698,19 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00000047683716, y: 0}
-  m_Size: {x: 1.6299999, y: 0.71}
-  m_Direction: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.63, y: 0.71}
+    newSize: {x: 1.63, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.63, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!114 &874989773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26662,6 +26791,33 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 5
   damageCollider: {fileID: 0}
+--- !u!114 &874989776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874989770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db392200f346c94182e10da733c41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+--- !u!114 &874989777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874989770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!1001 &876902628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26802,6 +26958,8 @@ GameObject:
   - component: {fileID: 879545024}
   - component: {fileID: 879545025}
   - component: {fileID: 879545023}
+  - component: {fileID: 879545027}
+  - component: {fileID: 879545026}
   - component: {fileID: 879545022}
   m_Layer: 0
   m_Name: Throns_Danger_01 (9)
@@ -26824,8 +26982,8 @@ Transform:
   m_Father: {fileID: 455003537}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &879545022
-CapsuleCollider2D:
+--- !u!61 &879545022
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -26838,8 +26996,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.6299999, y: 0.71}
-  m_Direction: 1
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.63, y: 0.71}
+    newSize: {x: 1.63, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.63, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!114 &879545023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26920,6 +27088,33 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 5
   damageCollider: {fileID: 0}
+--- !u!114 &879545026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879545020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db392200f346c94182e10da733c41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+--- !u!114 &879545027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879545020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!1001 &882173017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29737,6 +29932,8 @@ GameObject:
   - component: {fileID: 979625900}
   - component: {fileID: 979625898}
   - component: {fileID: 979625897}
+  - component: {fileID: 979625901}
+  - component: {fileID: 979625899}
   - component: {fileID: 979625896}
   m_Layer: 0
   m_Name: Throns_Danger_01 (6)
@@ -29759,8 +29956,8 @@ Transform:
   m_Father: {fileID: 455003537}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &979625896
-CapsuleCollider2D:
+--- !u!61 &979625896
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -29773,8 +29970,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.6299999, y: 0.71}
-  m_Direction: 1
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.63, y: 0.71}
+    newSize: {x: 1.63, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.63, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!114 &979625897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29805,6 +30012,19 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 5
   damageCollider: {fileID: 0}
+--- !u!114 &979625899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979625894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db392200f346c94182e10da733c41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!212 &979625900
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29855,6 +30075,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &979625901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979625894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!1001 &982002414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33829,6 +34063,8 @@ GameObject:
   - component: {fileID: 1096515714}
   - component: {fileID: 1096515715}
   - component: {fileID: 1096515713}
+  - component: {fileID: 1096515717}
+  - component: {fileID: 1096515716}
   - component: {fileID: 1096515712}
   m_Layer: 0
   m_Name: Throns_Danger_01 (10)
@@ -33851,8 +34087,8 @@ Transform:
   m_Father: {fileID: 455003537}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &1096515712
-CapsuleCollider2D:
+--- !u!61 &1096515712
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -33864,9 +34100,19 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00000047683716, y: 0}
-  m_Size: {x: 1.6299999, y: 0.71}
-  m_Direction: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.63, y: 0.71}
+    newSize: {x: 1.63, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.63, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!114 &1096515713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33947,6 +34193,33 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 5
   damageCollider: {fileID: 0}
+--- !u!114 &1096515716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096515710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db392200f346c94182e10da733c41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+--- !u!114 &1096515717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096515710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!1001 &1096963941
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37358,6 +37631,8 @@ GameObject:
   - component: {fileID: 1191520532}
   - component: {fileID: 1191520533}
   - component: {fileID: 1191520531}
+  - component: {fileID: 1191520535}
+  - component: {fileID: 1191520534}
   - component: {fileID: 1191520530}
   m_Layer: 0
   m_Name: Throns_Danger_01 (7)
@@ -37380,8 +37655,8 @@ Transform:
   m_Father: {fileID: 455003537}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &1191520530
-CapsuleCollider2D:
+--- !u!61 &1191520530
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -37394,8 +37669,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.6299999, y: 0.71}
-  m_Direction: 1
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.63, y: 0.71}
+    newSize: {x: 1.63, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.63, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!114 &1191520531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37476,6 +37761,33 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 5
   damageCollider: {fileID: 0}
+--- !u!114 &1191520534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191520528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db392200f346c94182e10da733c41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+--- !u!114 &1191520535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191520528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!1001 &1193431622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37978,6 +38290,8 @@ GameObject:
   - component: {fileID: 1207017748}
   - component: {fileID: 1207017746}
   - component: {fileID: 1207017745}
+  - component: {fileID: 1207017749}
+  - component: {fileID: 1207017747}
   - component: {fileID: 1207017744}
   m_Layer: 0
   m_Name: Throns_Danger_01 (6)
@@ -38000,8 +38314,8 @@ Transform:
   m_Father: {fileID: 455003537}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &1207017744
-CapsuleCollider2D:
+--- !u!61 &1207017744
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -38013,9 +38327,19 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00000047683716, y: 0}
-  m_Size: {x: 1.6299999, y: 0.71}
-  m_Direction: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.63, y: 0.71}
+    newSize: {x: 1.63, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.63, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!114 &1207017745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38046,6 +38370,19 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 5
   damageCollider: {fileID: 0}
+--- !u!114 &1207017747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207017742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db392200f346c94182e10da733c41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!212 &1207017748
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -38096,6 +38433,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1207017749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207017742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!1 &1212243926
 GameObject:
   m_ObjectHideFlags: 0
@@ -43835,6 +44186,8 @@ GameObject:
   - component: {fileID: 1406345219}
   - component: {fileID: 1406345220}
   - component: {fileID: 1406345218}
+  - component: {fileID: 1406345222}
+  - component: {fileID: 1406345221}
   - component: {fileID: 1406345217}
   m_Layer: 0
   m_Name: Throns_Danger_01 (13)
@@ -43857,8 +44210,8 @@ Transform:
   m_Father: {fileID: 455003537}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &1406345217
-CapsuleCollider2D:
+--- !u!61 &1406345217
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -43871,8 +44224,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.6299999, y: 0.71}
-  m_Direction: 1
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.63, y: 0.71}
+    newSize: {x: 1.63, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.63, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!114 &1406345218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43953,6 +44316,33 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 5
   damageCollider: {fileID: 0}
+--- !u!114 &1406345221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406345215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db392200f346c94182e10da733c41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+--- !u!114 &1406345222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406345215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!1001 &1409125483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46765,6 +47155,8 @@ GameObject:
   - component: {fileID: 1498164331}
   - component: {fileID: 1498164332}
   - component: {fileID: 1498164330}
+  - component: {fileID: 1498164334}
+  - component: {fileID: 1498164333}
   - component: {fileID: 1498164329}
   m_Layer: 0
   m_Name: Throns_Danger_01 (12)
@@ -46787,8 +47179,8 @@ Transform:
   m_Father: {fileID: 455003537}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &1498164329
-CapsuleCollider2D:
+--- !u!61 &1498164329
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -46801,8 +47193,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.6299999, y: 0.71}
-  m_Direction: 1
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.63, y: 0.71}
+    newSize: {x: 1.63, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.63, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!114 &1498164330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46883,6 +47285,33 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 5
   damageCollider: {fileID: 0}
+--- !u!114 &1498164333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498164327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db392200f346c94182e10da733c41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+--- !u!114 &1498164334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498164327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!1 &1504931072 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6626438457786521589, guid: 77914186004df4c26957b43ee7b9b1ff,
@@ -54108,6 +54537,8 @@ GameObject:
   - component: {fileID: 1730578232}
   - component: {fileID: 1730578233}
   - component: {fileID: 1730578231}
+  - component: {fileID: 1730578235}
+  - component: {fileID: 1730578234}
   - component: {fileID: 1730578230}
   m_Layer: 0
   m_Name: Throns_Danger_01 (14)
@@ -54130,8 +54561,8 @@ Transform:
   m_Father: {fileID: 455003537}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &1730578230
-CapsuleCollider2D:
+--- !u!61 &1730578230
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -54144,8 +54575,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.6299999, y: 0.71}
-  m_Direction: 1
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.63, y: 0.71}
+    newSize: {x: 1.63, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.63, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!114 &1730578231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54226,6 +54667,33 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 5
   damageCollider: {fileID: 0}
+--- !u!114 &1730578234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730578228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db392200f346c94182e10da733c41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+--- !u!114 &1730578235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730578228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!1001 &1730917366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56030,6 +56498,8 @@ GameObject:
   - component: {fileID: 1776636592}
   - component: {fileID: 1776636593}
   - component: {fileID: 1776636591}
+  - component: {fileID: 1776636595}
+  - component: {fileID: 1776636594}
   - component: {fileID: 1776636590}
   m_Layer: 0
   m_Name: Throns_Danger_01 (16)
@@ -56052,8 +56522,8 @@ Transform:
   m_Father: {fileID: 455003537}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &1776636590
-CapsuleCollider2D:
+--- !u!61 &1776636590
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -56066,8 +56536,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.6299999, y: 0.71}
-  m_Direction: 1
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.63, y: 0.71}
+    newSize: {x: 1.63, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.63, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!114 &1776636591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56148,6 +56628,33 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 5
   damageCollider: {fileID: 0}
+--- !u!114 &1776636594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776636588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db392200f346c94182e10da733c41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+--- !u!114 &1776636595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776636588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!1001 &1778134066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58845,6 +59352,8 @@ GameObject:
   - component: {fileID: 1838579169}
   - component: {fileID: 1838579170}
   - component: {fileID: 1838579168}
+  - component: {fileID: 1838579172}
+  - component: {fileID: 1838579171}
   - component: {fileID: 1838579167}
   m_Layer: 0
   m_Name: Throns_Danger_01 (8)
@@ -58867,8 +59376,8 @@ Transform:
   m_Father: {fileID: 455003537}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &1838579167
-CapsuleCollider2D:
+--- !u!61 &1838579167
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -58880,9 +59389,19 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00000047683716, y: 0}
-  m_Size: {x: 1.6299999, y: 0.71}
-  m_Direction: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.63, y: 0.71}
+    newSize: {x: 1.63, y: 0.71}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.63, y: 0.71}
+  m_EdgeRadius: 0
 --- !u!114 &1838579168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58963,6 +59482,33 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 5
   damageCollider: {fileID: 0}
+--- !u!114 &1838579171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838579165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db392200f346c94182e10da733c41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+--- !u!114 &1838579172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838579165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93266d58b478c354ca77119c8972678f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
+  myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
 --- !u!1001 &1839847427
 PrefabInstance:
   m_ObjectHideFlags: 0
