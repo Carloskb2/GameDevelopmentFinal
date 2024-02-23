@@ -1652,7 +1652,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41833220}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 48.24, y: 2.67, z: 0}
+  m_LocalPosition: {x: 47.22, y: 3.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1232100557}
@@ -1671,7 +1671,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.033798218, y: -0.19165039}
+  m_Offset: {x: 0.029800415, y: -0.34004402}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1682,7 +1682,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5676117, y: 0.775136}
+  m_Size: {x: 0.94919586, y: 0.47834873}
   m_EdgeRadius: 0
 --- !u!114 &41833223
 MonoBehaviour:
@@ -20302,7 +20302,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.033798218, y: -0.3416741}
+  m_Offset: {x: -0.047750473, y: -0.3416741}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -20313,7 +20313,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5676117, y: 0.47518778}
+  m_Size: {x: 0.7350502, y: 0.47518778}
   m_EdgeRadius: 0
 --- !u!114 &484329132
 MonoBehaviour:
@@ -58596,11 +58596,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011826580284, guid: 5b210609803658e488f512fc13a6163e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.28
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4000011826580284, guid: 5b210609803658e488f512fc13a6163e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.28
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4000011826580284, guid: 5b210609803658e488f512fc13a6163e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -73952,7 +73952,7 @@ PrefabInstance:
     - target: {fileID: 8835490558837625908, guid: 8029604108539b443aeb0e34f13b3429,
         type: 3}
       propertyPath: currentLevel
-      value: Level_6
+      value: Level 6
       objectReference: {fileID: 0}
     - target: {fileID: 8835490558837625909, guid: 8029604108539b443aeb0e34f13b3429,
         type: 3}
