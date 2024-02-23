@@ -7059,7 +7059,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExitPortal
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8331526429636921242, guid: 9b14d8e9e8e25304baf3482ed695d4a8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9b14d8e9e8e25304baf3482ed695d4a8, type: 3}
 --- !u!1 &131948336 stripped
 GameObject:
@@ -7076,10 +7077,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 131948336}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c74251b95b6fa642b17206dc959eef3, type: 3}
+  m_Script: {fileID: 11500000, guid: 777068749ce6d4e7cb58bd12507d8889, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLevel: 6
+  winScreen: {fileID: 0}
 --- !u!1 &134658640 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3395926667259081448, guid: 505d78f1899074338a37c07d4993d8c5,
