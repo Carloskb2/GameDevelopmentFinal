@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Caleb/Level 4.unity
     guid: a58bc6e36c9a177459448e69a1411a9f
   - enabled: 1
+    path: Assets/Iatisam/Scenes/GameWin.unity
+    guid: d87c597bb7b7e410b9e40cca0f69ccc9
+  - enabled: 0
     path: Assets/Iatisam/Scripts/GameWinMenu.unity
     guid: 3bdc823800e7f408dbdd1f0c89534498
   - enabled: 1
