@@ -17,7 +17,7 @@ public class BloodBurst : MonoBehaviour
     {
         Debug.Log("BloodBurst");
         GameObject explosion = Instantiate(explosionEffect, transform.position, Quaternion.identity);
-        Destroy(explosion, 0.1f);
+        Destroy(explosion, 1.0f);
 
     }
 
