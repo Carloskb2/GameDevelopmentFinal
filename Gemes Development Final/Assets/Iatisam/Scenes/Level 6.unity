@@ -20493,6 +20493,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: feacb74c2d2974f67a975d5c91efa7aa, type: 2}
+  animationEffect_1: {fileID: 2688588678587616223, guid: a3af86ec9d3f6594ea34053a73c6dcae,
+    type: 3}
+  animationEffect_2: {fileID: 748781637555137343, guid: b9e4e185fe3d3674ab50aa2a10a663cc,
+    type: 3}
 --- !u!1001 &491434611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60856,6 +60860,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 040442b574827b24ead62bb698311e0b, type: 2}
+  animationEffect_1: {fileID: 2688588678587616223, guid: a3af86ec9d3f6594ea34053a73c6dcae,
+    type: 3}
+  animationEffect_2: {fileID: 748781637555137343, guid: b9e4e185fe3d3674ab50aa2a10a663cc,
+    type: 3}
 --- !u!1001 &1265122634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66974,6 +66982,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: cf899343e6f4a40a994afa756e7f77ae, type: 2}
+  animationEffect_1: {fileID: 2688588678587616223, guid: a3af86ec9d3f6594ea34053a73c6dcae,
+    type: 3}
+  animationEffect_2: {fileID: 748781637555137343, guid: b9e4e185fe3d3674ab50aa2a10a663cc,
+    type: 3}
 --- !u!1001 &1398329952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80270,6 +80282,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 92d874d198bf101489cb37b65ee95bc6, type: 2}
+  animationEffect_1: {fileID: 2688588678587616223, guid: a3af86ec9d3f6594ea34053a73c6dcae,
+    type: 3}
+  animationEffect_2: {fileID: 748781637555137343, guid: b9e4e185fe3d3674ab50aa2a10a663cc,
+    type: 3}
 --- !u!1001 &1592260918
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86575,6 +86591,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+  animationEffect_1: {fileID: 2688588678587616223, guid: a3af86ec9d3f6594ea34053a73c6dcae,
+    type: 3}
+  animationEffect_2: {fileID: 3515273224110213031, guid: 5feb8ff459b7be04d8e7bf1e2769e909,
+    type: 3}
 --- !u!1001 &1739017675
 PrefabInstance:
   m_ObjectHideFlags: 0

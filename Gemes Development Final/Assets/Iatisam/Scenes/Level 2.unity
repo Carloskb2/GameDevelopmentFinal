@@ -8352,6 +8352,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+  animationEffect: {fileID: 8858619576811986319, guid: f839dac1a6a3d6445a96fa8a31c595f2,
+    type: 3}
 --- !u!1001 &556234398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11541,6 +11543,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 92d874d198bf101489cb37b65ee95bc6, type: 2}
+  animationEffect: {fileID: 8858619576811986319, guid: f839dac1a6a3d6445a96fa8a31c595f2,
+    type: 3}
 --- !u!114 &817325014
 MonoBehaviour:
   m_ObjectHideFlags: 0
