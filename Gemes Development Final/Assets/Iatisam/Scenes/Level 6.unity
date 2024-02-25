@@ -72974,6 +72974,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1657083335326722929, guid: 71ce8edb526b9624c91e0ab5df26b6eb,
         type: 3}
+      propertyPath: dieSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 55a4a58345595430fb94b364b73d903b, type: 3}
+    - target: {fileID: 1657083335326722929, guid: 71ce8edb526b9624c91e0ab5df26b6eb,
+        type: 3}
       propertyPath: fallSound
       value: 
       objectReference: {fileID: 8300000, guid: 55a4a58345595430fb94b364b73d903b, type: 3}
