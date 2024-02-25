@@ -8352,7 +8352,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
-  animationEffect: {fileID: 8858619576811986319, guid: f839dac1a6a3d6445a96fa8a31c595f2,
+  animationEffect_1: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
+    type: 3}
+  animationEffect_2: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
     type: 3}
 --- !u!1001 &556234398
 PrefabInstance:
@@ -11543,7 +11545,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 92d874d198bf101489cb37b65ee95bc6, type: 2}
-  animationEffect: {fileID: 8858619576811986319, guid: f839dac1a6a3d6445a96fa8a31c595f2,
+  animationEffect_1: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
+    type: 3}
+  animationEffect_2: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
     type: 3}
 --- !u!114 &817325014
 MonoBehaviour:
