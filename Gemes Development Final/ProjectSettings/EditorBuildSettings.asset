@@ -24,21 +24,21 @@ EditorBuildSettings:
     path: Assets/Iatisam/Scenes/GameWin.unity
     guid: d87c597bb7b7e410b9e40cca0f69ccc9
   - enabled: 0
-    path: Assets/Iatisam/Scripts/GameWinMenu.unity
-    guid: 3bdc823800e7f408dbdd1f0c89534498
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Iatisam/Scenes/Level 5.unity
     guid: c9f3bae2705e42d48ad9a08450309c2e
   - enabled: 1
     path: Assets/Iatisam/Scenes/Level 6.unity
     guid: 4781d15ebd11bda4c97c83a72c0d0972
-  - enabled: 1
+  - enabled: 0
     path: Assets/Rene/My project/Assets/Scenes/Starting Menu.unity
     guid: ea8c0c463e5044aa8923ae7bf85b9805
-  - enabled: 1
+  - enabled: 0
     path: Assets/Rene/My project/Assets/Scenes/Pause Menu.unity
     guid: 1a2699f0fbd7147448c7b1ec729e4e72
-  - enabled: 1
+  - enabled: 0
     path: Assets/Rene/My project/Assets/Scenes/Main Menu Scene.unity
     guid: 7fbd5a8777e644534b041bc1169807fe
   m_configObjects: {}

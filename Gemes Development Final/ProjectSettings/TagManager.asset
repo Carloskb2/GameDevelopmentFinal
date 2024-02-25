@@ -33,7 +33,7 @@ TagManager:
   - Pickable
   - Enemies
   - AgentCollider
-  - 
+  - PauseUI
   - 
   - 
   - 
@@ -101,4 +101,7 @@ TagManager:
     locked: 0
   - name: Agents
     uniqueID: 1361274451
+    locked: 0
+  - name: PauseUI
+    uniqueID: 417226263
     locked: 0
