@@ -5,12 +5,12 @@ public class MainMenuController : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("GameScene"); // Load the game scene
+        SceneManager.LoadScene("Level 1"); // Load the game scene level 1
     }
 
-    public void OpenOptions()
+    public void SelectLevel()
     {
-        // Implemention of code to open the options/settings menu 
+        SceneManager.LoadScene("Level Selection Menu"); // Load the level selection scene
     }
 
     public void QuitGame()
