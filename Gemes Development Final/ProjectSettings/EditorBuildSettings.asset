@@ -33,12 +33,12 @@ EditorBuildSettings:
     path: Assets/Iatisam/Scenes/Level 6.unity
     guid: 4781d15ebd11bda4c97c83a72c0d0972
   - enabled: 0
-    path: Assets/Rene/My project/Assets/Scenes/Starting Menu.unity
+    path: Assets/Rene/My project/Assets/Scenes/OLD_Starting Menu.unity
     guid: ea8c0c463e5044aa8923ae7bf85b9805
   - enabled: 0
-    path: Assets/Rene/My project/Assets/Scenes/Pause Menu.unity
+    path: Assets/Rene/My project/Assets/Scenes/OLD_Pause Menu.unity
     guid: 1a2699f0fbd7147448c7b1ec729e4e72
   - enabled: 0
-    path: Assets/Rene/My project/Assets/Scenes/Main Menu Scene.unity
+    path: Assets/Rene/My project/Assets/Scenes/OLD_Main Menu Scene.unity
     guid: 7fbd5a8777e644534b041bc1169807fe
   m_configObjects: {}
