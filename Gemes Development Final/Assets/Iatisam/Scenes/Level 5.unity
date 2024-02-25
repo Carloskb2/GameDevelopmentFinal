@@ -14502,20 +14502,6 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 100
   damageCollider: {fileID: 0}
---- !u!114 &460154803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 460154800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7130eb2fd32854ef9a81a438464a1049, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosionEffect: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
-    type: 3}
 --- !u!1001 &461519639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20179,20 +20165,6 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 100
   damageCollider: {fileID: 0}
---- !u!114 &649030122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 649030114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7130eb2fd32854ef9a81a438464a1049, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosionEffect: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
-    type: 3}
 --- !u!1001 &649366902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27254,7 +27226,6 @@ GameObject:
   - component: {fileID: 879545027}
   - component: {fileID: 879545026}
   - component: {fileID: 879545022}
-  - component: {fileID: 879545028}
   m_Layer: 0
   m_Name: Throns_Danger_01 (9)
   m_TagString: Enemy
@@ -27409,20 +27380,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
   myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
---- !u!114 &879545028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879545020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7130eb2fd32854ef9a81a438464a1049, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosionEffect: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
-    type: 3}
 --- !u!1001 &882173017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28015,20 +27972,6 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 100
   damageCollider: {fileID: 0}
---- !u!114 &901320623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 901320620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7130eb2fd32854ef9a81a438464a1049, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosionEffect: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
-    type: 3}
 --- !u!1001 &902705905
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38540,7 +38483,6 @@ GameObject:
   - component: {fileID: 1207017749}
   - component: {fileID: 1207017747}
   - component: {fileID: 1207017744}
-  - component: {fileID: 1207017750}
   m_Layer: 0
   m_Name: Throns_Danger_01 (6)
   m_TagString: Enemy
@@ -38695,20 +38637,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
   myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
---- !u!114 &1207017750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1207017742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7130eb2fd32854ef9a81a438464a1049, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosionEffect: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
-    type: 3}
 --- !u!1 &1212243926
 GameObject:
   m_ObjectHideFlags: 0
@@ -45435,20 +45363,6 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 100
   damageCollider: {fileID: 0}
---- !u!114 &1424716626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1424716623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7130eb2fd32854ef9a81a438464a1049, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosionEffect: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
-    type: 3}
 --- !u!1001 &1426793964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47475,7 +47389,6 @@ GameObject:
   - component: {fileID: 1498164334}
   - component: {fileID: 1498164333}
   - component: {fileID: 1498164329}
-  - component: {fileID: 1498164335}
   m_Layer: 0
   m_Name: Throns_Danger_01 (12)
   m_TagString: Enemy
@@ -47630,20 +47543,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grayscaleShader: {fileID: 4800000, guid: adfc06b811b514640b8f7bee84342468, type: 3}
   myID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
---- !u!114 &1498164335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498164327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7130eb2fd32854ef9a81a438464a1049, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosionEffect: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
-    type: 3}
 --- !u!1 &1504931072 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6626438457786521589, guid: 77914186004df4c26957b43ee7b9b1ff,
