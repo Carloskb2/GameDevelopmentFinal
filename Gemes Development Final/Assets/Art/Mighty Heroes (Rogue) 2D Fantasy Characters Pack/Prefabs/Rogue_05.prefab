@@ -2131,6 +2131,12 @@ PrefabInstance:
       propertyPath: damage
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 7904121750483714834, guid: 442d11b4fa2d71541a855e9fbe6630f2,
+        type: 3}
+      propertyPath: bloodEffect
+      value: 
+      objectReference: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
+        type: 3}
     - target: {fileID: 7963213347664589406, guid: 442d11b4fa2d71541a855e9fbe6630f2,
         type: 3}
       propertyPath: m_Name

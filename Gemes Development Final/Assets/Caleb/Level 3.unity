@@ -106196,6 +106196,8 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 100
   damageCollider: {fileID: 0}
+  bloodEffect: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
+    type: 3}
 --- !u!4 &5812712795473267660
 Transform:
   m_ObjectHideFlags: 0
@@ -106375,6 +106377,8 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 100
   damageCollider: {fileID: 0}
+  bloodEffect: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
+    type: 3}
 --- !u!1 &6188183339809269688
 GameObject:
   m_ObjectHideFlags: 0
