@@ -158,19 +158,20 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215414381}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Children:
+  - {fileID: 1256257149}
+  m_Father: {fileID: 1053188604}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &576466534
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1053188604}
+    m_TransformParent: {fileID: 215414383}
     m_Modifications:
     - target: {fileID: 731346112, guid: 7e102beaf404b4808985eb84b744156a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -298,14 +299,15 @@ PrefabInstance:
     - target: {fileID: 8268758191926222775, guid: 7e102beaf404b4808985eb84b744156a,
         type: 3}
       propertyPath: m_Name
-      value: Pause Menu UI
+      value: Pause Menu Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 8510042405190676486, guid: 7e102beaf404b4808985eb84b744156a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 215414382}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2051144229, guid: 7e102beaf404b4808985eb84b744156a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7e102beaf404b4808985eb84b744156a, type: 3}
 --- !u!1 &990950380
 GameObject:
@@ -371,7 +373,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1053188601
 GameObject:
@@ -453,7 +455,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1256257149}
+  - {fileID: 215414383}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
