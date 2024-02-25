@@ -1129,6 +1129,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 92d874d198bf101489cb37b65ee95bc6,
         type: 2}
+    - target: {fileID: 8131567727681515704, guid: 18667eb736eea784db0be0fd574f79c0,
+        type: 3}
+      propertyPath: bloodEffect
+      value: 
+      objectReference: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
+        type: 3}
     - target: {fileID: 8131567727681515705, guid: 18667eb736eea784db0be0fd574f79c0,
         type: 3}
       propertyPath: myID
@@ -4215,6 +4221,8 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 100
   damageCollider: {fileID: 0}
+  bloodEffect: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
+    type: 3}
 --- !u!1001 &264657732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20663,6 +20671,8 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 100
   damageCollider: {fileID: 0}
+  bloodEffect: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
+    type: 3}
 --- !u!1001 &1355512478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20785,6 +20795,8 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 100
   damageCollider: {fileID: 0}
+  bloodEffect: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
+    type: 3}
 --- !u!1001 &1358560612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25544,6 +25556,8 @@ MonoBehaviour:
   playerHealth: {fileID: 11400000, guid: b2e071bceed28804382c3602179ff531, type: 2}
   damage: 20
   damageCollider: {fileID: 0}
+  bloodEffect: {fileID: 2316622124796110278, guid: 110600fc71d614ffa854f7dc8e0fa23f,
+    type: 3}
 --- !u!1 &1749302852
 GameObject:
   m_ObjectHideFlags: 0
