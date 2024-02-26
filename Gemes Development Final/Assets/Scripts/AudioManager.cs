@@ -50,6 +50,7 @@ public class AudioManager : MonoBehaviour
         // Initialize music and SFX audio sources
         musicSource = gameObject.AddComponent<AudioSource>();
         sfxSource = gameObject.AddComponent<AudioSource>();
+        
 
         // Initialize ambience audio sources
         ambienceSources = new AudioSource[3];
