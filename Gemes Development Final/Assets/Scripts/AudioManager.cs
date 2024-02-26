@@ -12,6 +12,7 @@ public class AudioManager : MonoBehaviour
     [Header("Player Sounds")]
     public AudioClip stepSound;
     public AudioClip jumpSound;
+    public AudioClip painSound;
     public AudioClip fallSound;
     public AudioClip climbUpSound;
     public AudioClip climbDownSound;
@@ -19,6 +20,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip collapseSound;
     public AudioClip collectableSound;
     public AudioClip dieSound;
+    public AudioClip finalSound;
     public AudioClip winSound;
 
     [Header("Enemy Sounds")]
