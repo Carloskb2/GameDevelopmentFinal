@@ -6,6 +6,12 @@ using UnityEngine;
 public class AgentAnimation : MonoBehaviour
 {
     private Animator animator;
+    AudioManager audioManager;  
+
+    private void Start()
+        {
+            audioManager = FindObjectOfType<AudioManager>();
+        }
 
     private void Awake() 
     {
@@ -30,6 +36,7 @@ public class AgentAnimation : MonoBehaviour
                 Play("Run");
                 break;
             case AnimationType.jump:
+                audioManager.PlaySound(audioManager.jumpSound);
                 Play("Jump");
                 break;
             case AnimationType.fall:

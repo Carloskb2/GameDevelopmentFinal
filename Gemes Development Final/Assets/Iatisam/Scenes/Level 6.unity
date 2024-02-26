@@ -72667,6 +72667,21 @@ PrefabInstance:
       propertyPath: fallSound
       value: 
       objectReference: {fileID: 8300000, guid: 55a4a58345595430fb94b364b73d903b, type: 3}
+    - target: {fileID: 1657083335326722929, guid: 71ce8edb526b9624c91e0ab5df26b6eb,
+        type: 3}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 27e75b4f2e9dc42708843e45b723407a, type: 3}
+    - target: {fileID: 1657083335326722929, guid: 71ce8edb526b9624c91e0ab5df26b6eb,
+        type: 3}
+      propertyPath: collapseSound
+      value: 
+      objectReference: {fileID: 8300000, guid: af36e71dbf32c47f6b9dde7fdd06f9cd, type: 3}
+    - target: {fileID: 1657083335326722929, guid: 71ce8edb526b9624c91e0ab5df26b6eb,
+        type: 3}
+      propertyPath: collectableSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9d41f6787ece944afbac9a5d922f10d5, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71ce8edb526b9624c91e0ab5df26b6eb, type: 3}
 --- !u!1 &1532675800
