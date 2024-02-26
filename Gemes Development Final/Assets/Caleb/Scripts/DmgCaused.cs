@@ -10,6 +10,12 @@ public class DmgCaused : MonoBehaviour
     [SerializeField]
     private Collider2D damageCollider;
     public GameObject bloodEffect;
+    AudioManager audioManager;  
+
+    private void Start()
+        {
+            audioManager = FindObjectOfType<AudioManager>();
+        }
 
     void OnTriggerEnter2D(Collider2D damageCollider)
     {
@@ -19,6 +25,8 @@ public class DmgCaused : MonoBehaviour
             {
                 BloodEffect(damageCollider.gameObject.transform.position);
             }
+            audioManager.PlaySound(audioManager.painSound);
+
             playerHealth.TakeDamage(damage);
             print("Damage");
         }

@@ -20359,6 +20359,19 @@ MonoBehaviour:
     type: 3}
   animationEffect_2: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
     type: 3}
+--- !u!114 &488539249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488539243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7130eb2fd32854ef9a81a438464a1049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionEffect: {fileID: 0}
 --- !u!1001 &491434611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72672,6 +72685,16 @@ PrefabInstance:
       propertyPath: jumpSound
       value: 
       objectReference: {fileID: 8300000, guid: 27e75b4f2e9dc42708843e45b723407a, type: 3}
+    - target: {fileID: 1657083335326722929, guid: 71ce8edb526b9624c91e0ab5df26b6eb,
+        type: 3}
+      propertyPath: painSound
+      value: 
+      objectReference: {fileID: 8300000, guid: b8ef176f8b7c644a3b62b4cfd8faf07f, type: 3}
+    - target: {fileID: 1657083335326722929, guid: 71ce8edb526b9624c91e0ab5df26b6eb,
+        type: 3}
+      propertyPath: finalSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 65f71b07f4e3c4c9c9f9fe76e402ca7e, type: 3}
     - target: {fileID: 1657083335326722929, guid: 71ce8edb526b9624c91e0ab5df26b6eb,
         type: 3}
       propertyPath: collapseSound
