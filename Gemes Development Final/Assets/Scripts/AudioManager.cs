@@ -16,6 +16,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip climbUpSound;
     public AudioClip climbDownSound;
     public AudioClip getHitSound;
+    public AudioClip collapseSound;
+    public AudioClip collectableSound;
     public AudioClip dieSound;
     public AudioClip winSound;
 

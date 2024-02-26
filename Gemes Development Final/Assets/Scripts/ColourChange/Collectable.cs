@@ -9,6 +9,12 @@ public class Collectable : MonoBehaviour
     public GameObject animationEffect_1;
     public GameObject animationEffect_2;
 
+    AudioManager audioManager;  
+
+    private void Start()
+        {
+            audioManager = FindObjectOfType<AudioManager>();
+        }
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -18,6 +24,8 @@ public class Collectable : MonoBehaviour
             {
                 AnimateObject();
             }
+            audioManager.PlaySound(audioManager.collectableSound);
+
             OnCollected?.Invoke(collectableID); // Pass the ID when collected
             gameObject.SetActive(false); // Hide or destroy the collectable
             
