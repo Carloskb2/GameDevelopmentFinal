@@ -1978,6 +1978,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+  animationEffect_1: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
+    type: 3}
+  animationEffect_2: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
+    type: 3}
 --- !u!1001 &365559735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2289,6 +2293,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 92d874d198bf101489cb37b65ee95bc6, type: 2}
+  animationEffect_1: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
+    type: 3}
+  animationEffect_2: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
+    type: 3}
 --- !u!1 &418209915
 GameObject:
   m_ObjectHideFlags: 0
@@ -7495,6 +7503,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 040442b574827b24ead62bb698311e0b, type: 2}
+  animationEffect_1: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
+    type: 3}
+  animationEffect_2: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
+    type: 3}
 --- !u!1 &1939998410
 GameObject:
   m_ObjectHideFlags: 0
