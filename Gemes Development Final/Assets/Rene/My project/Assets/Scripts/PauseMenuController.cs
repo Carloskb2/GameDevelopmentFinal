@@ -59,13 +59,13 @@ public class PauseMenuController : MonoBehaviour
     public void LoadMainMenu()
     {
         Time.timeScale = 1f; // Ensure the game's time scale is reset before loading the main menu
-        SceneManager.LoadScene("MainMenu"); // Load the main menu scene
+        SceneManager.LoadScene("Start Menu"); // Load the main menu scene
     }
 
     // Quits the game
     public void QuitGame()
     {
-        Debug.Log("Quit Game"); // It's helpful to log this action when testing in the editor
+        Debug.Log("Quit Game"); 
         Application.Quit(); // Quit the application
     }
 }
