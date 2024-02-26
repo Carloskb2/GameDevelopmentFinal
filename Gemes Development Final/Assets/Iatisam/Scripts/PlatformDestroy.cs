@@ -6,7 +6,12 @@ public class PlatformDestroy : MonoBehaviour
     private Vector3 originalPosition;
     public GameObject platform;
     public GameObject explosionEffect;
+    AudioManager audioManager;  
 
+    private void Start()
+        {
+            audioManager = FindObjectOfType<AudioManager>();
+        }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -23,6 +28,8 @@ public class PlatformDestroy : MonoBehaviour
         Debug.Log("Destroying Platform");
 
         platformDestroyed = true;
+        audioManager.PlaySound(audioManager.collapseSound);
+
         ExplodeEffect();
         gameObject.SetActive(false);
 
