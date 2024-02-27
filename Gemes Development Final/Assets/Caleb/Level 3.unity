@@ -1420,12 +1420,12 @@ PrefabInstance:
     - target: {fileID: 8835490558837625908, guid: 8029604108539b443aeb0e34f13b3429,
         type: 3}
       propertyPath: nextLevel
-      value: Level Selection Menu
+      value: Level 4
       objectReference: {fileID: 0}
     - target: {fileID: 8835490558837625908, guid: 8029604108539b443aeb0e34f13b3429,
         type: 3}
       propertyPath: currentLevel
-      value: Level 2
+      value: Level 3
       objectReference: {fileID: 0}
     - target: {fileID: 8835490558837625908, guid: 8029604108539b443aeb0e34f13b3429,
         type: 3}
