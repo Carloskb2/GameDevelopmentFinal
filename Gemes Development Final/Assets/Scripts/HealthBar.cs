@@ -42,6 +42,7 @@ public class HealthBar : MonoBehaviour
             {
                 // Play the Get Hit Sound
                 AudioManager.Instance.PlaySound(AudioManager.Instance.getHitSound);
+                AudioManager.Instance.PlaySound(AudioManager.Instance.painSound);
             }
             StartCoroutine(ShakeCamera()); // Trigger camera shake
         }
