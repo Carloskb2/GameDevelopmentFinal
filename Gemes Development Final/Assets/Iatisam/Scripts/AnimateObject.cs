@@ -3,13 +3,6 @@
 public class AnimateObject : MonoBehaviour
 {
     public GameObject explosionEffect;
-    AudioManager audioManager;  
-
-    private void Start()
-        {
-            audioManager = FindObjectOfType<AudioManager>();
-        }
-
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -21,7 +14,7 @@ public class AnimateObject : MonoBehaviour
 
      private void ExplodeEffect()
     {
-        audioManager.PlaySound(audioManager.finalSound);
+        AudioManager.Instance.PlaySound(AudioManager.Instance.finalSound);
 
         Debug.Log("Effect");
         GameObject explosion = Instantiate(explosionEffect, transform.position, Quaternion.identity);

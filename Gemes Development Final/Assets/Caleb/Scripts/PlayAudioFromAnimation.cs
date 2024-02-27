@@ -7,7 +7,6 @@ public class PlayAudioFromAnimation : MonoBehaviour
     AudioSource sfxSource;
     Animator animator;
     GroundDetector detector;
-    AudioManager audioManager;
 
     private void Awake()
     {
@@ -18,7 +17,6 @@ public class PlayAudioFromAnimation : MonoBehaviour
     private void Start()
     {
         detector = FindObjectOfType<GroundDetector>();
-        audioManager = FindObjectOfType<AudioManager>();
     }
 
     public void PlaySound(AudioClip clip)
@@ -34,6 +32,6 @@ public class PlayAudioFromAnimation : MonoBehaviour
             sfxSource.Stop();
 
         if (transform.position.y < detector.fallThreshold + 1)
-            audioManager.PlaySound(audioManager.dieSound);
+            AudioManager.Instance.PlaySound(AudioManager.Instance.dieSound);
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Level2DestroyIceLock : MonoBehaviour
+public class DestroyGameObject : MonoBehaviour
 {
     [SerializeField] GameObject iceBridgeRight;
     private void OnTriggerEnter2D(Collider2D collision)
