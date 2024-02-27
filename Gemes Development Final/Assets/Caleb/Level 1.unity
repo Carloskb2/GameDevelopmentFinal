@@ -1849,6 +1849,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
+  animationEffect_1: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
+    type: 3}
+  animationEffect_2: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
+    type: 3}
 --- !u!4 &368289745 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2534608927582125707, guid: bedc24fd946804b4a985316ee62d1af3,
