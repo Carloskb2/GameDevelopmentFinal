@@ -54,9 +54,9 @@ MonoBehaviour:
   stepSound: {fileID: 0}
   jumpSound: {fileID: 0}
   painSound: {fileID: 8300000, guid: b8ef176f8b7c644a3b62b4cfd8faf07f, type: 3}
-  fallSound: {fileID: 8300000, guid: c7d557ef64f431141978e10d433f2ceb, type: 3}
-  climbUpSound: {fileID: 8300000, guid: ff962d92b61bd4a7194a9739694cb969, type: 3}
-  climbDownSound: {fileID: 8300000, guid: ff962d92b61bd4a7194a9739694cb969, type: 3}
+  fallSound: {fileID: 0}
+  climbUpSound: {fileID: 0}
+  climbDownSound: {fileID: 0}
   getHitSound: {fileID: 8300000, guid: 9dfef8eac315540ffa501e18a419b1be, type: 3}
   collapseSound: {fileID: 8300000, guid: af36e71dbf32c47f6b9dde7fdd06f9cd, type: 3}
   collectableSound: {fileID: 8300000, guid: 9d41f6787ece944afbac9a5d922f10d5, type: 3}
@@ -65,7 +65,7 @@ MonoBehaviour:
   winSound: {fileID: 8300000, guid: 0b4cdce16d03a4fa9bba6a100c0ff330, type: 3}
   enemyMoveSound: {fileID: 8300000, guid: 7dd84a5f509deba43a9cb3ae3489d7c2, type: 3}
   enemyIdleSound: {fileID: 0}
-  enemyAttackSound: {fileID: 8300000, guid: 74bae495797c5af4ca5e526d950aaf41, type: 3}
+  enemyAttackSound: {fileID: 0}
   enemyDieSound: {fileID: 8300000, guid: 5bd7c863457a5f441a01d27994bf91f3, type: 3}
   ambience1: {fileID: 0}
   ambience2: {fileID: 0}
