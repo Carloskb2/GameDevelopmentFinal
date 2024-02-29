@@ -28,8 +28,8 @@ public class Collectable : MonoBehaviour
     private void AnimateObject()
     {
         Debug.Log("AnimationWorks");
-        GameObject animEffect_1 = Instantiate(animationEffect_1, transform.position, Quaternion.identity);
-        GameObject animEffect_2 = Instantiate(animationEffect_2, transform.position, Quaternion.identity);
+        GameObject animEffect_1 = Instantiate(animationEffect_1, new Vector3(transform.position.x, transform.position.y, transform.position.z - 10), Quaternion.identity);
+        GameObject animEffect_2 = Instantiate(animationEffect_2, new Vector3(transform.position.x, transform.position.y, transform.position.z - 5), Quaternion.identity);
         Destroy(animEffect_1, 1.0f);
         Destroy(animEffect_2, 1.0f);
     }

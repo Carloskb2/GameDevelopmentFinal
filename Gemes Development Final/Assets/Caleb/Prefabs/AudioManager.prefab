@@ -61,7 +61,7 @@ MonoBehaviour:
   collapseSound: {fileID: 8300000, guid: af36e71dbf32c47f6b9dde7fdd06f9cd, type: 3}
   collectableSound: {fileID: 8300000, guid: 9d41f6787ece944afbac9a5d922f10d5, type: 3}
   dieSound: {fileID: 8300000, guid: 55a4a58345595430fb94b364b73d903b, type: 3}
-  finalSound: {fileID: 8300000, guid: 0b4cdce16d03a4fa9bba6a100c0ff330, type: 3}
+  finalSound: {fileID: 0}
   winSound: {fileID: 8300000, guid: 0b4cdce16d03a4fa9bba6a100c0ff330, type: 3}
   enemyMoveSound: {fileID: 8300000, guid: 7dd84a5f509deba43a9cb3ae3489d7c2, type: 3}
   enemyIdleSound: {fileID: 0}
