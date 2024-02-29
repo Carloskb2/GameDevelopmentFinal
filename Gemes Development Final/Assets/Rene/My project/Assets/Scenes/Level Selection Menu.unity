@@ -826,16 +826,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 631629517}
     m_Modifications:
     - target: {fileID: 288461908, guid: 2d443cbf7e5414f6982c73f43d317a59, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 288461908, guid: 2d443cbf7e5414f6982c73f43d317a59, type: 3}
       propertyPath: m_Pivot.y
-      value: 1
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 288461908, guid: 2d443cbf7e5414f6982c73f43d317a59, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 288461908, guid: 2d443cbf7e5414f6982c73f43d317a59, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 288461908, guid: 2d443cbf7e5414f6982c73f43d317a59, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 288461908, guid: 2d443cbf7e5414f6982c73f43d317a59, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 288461908, guid: 2d443cbf7e5414f6982c73f43d317a59, type: 3}
       propertyPath: m_LocalScale.x
@@ -850,8 +862,12 @@ PrefabInstance:
       value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 288461908, guid: 2d443cbf7e5414f6982c73f43d317a59, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 288461908, guid: 2d443cbf7e5414f6982c73f43d317a59, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -120
+      value: 161
       objectReference: {fileID: 0}
     - target: {fileID: 1439880689, guid: 2d443cbf7e5414f6982c73f43d317a59, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
