@@ -27,7 +27,7 @@ public class DmgCaused : MonoBehaviour
     private void BloodEffect(Vector3 playerPosition)
     {
         Debug.Log("BloodBurst");
-        GameObject blood = Instantiate(bloodEffect, playerPosition, Quaternion.identity);
+        GameObject blood = Instantiate(bloodEffect, new Vector3(playerPosition.x, playerPosition.y, playerPosition.z - 10), Quaternion.identity);
         Destroy(blood, 1.0f);
     }
 }
