@@ -14,11 +14,4 @@ public class GameWinScript : MonoBehaviour
         Time.timeScale = 1f; // Ensure the game's time scale is reset before loading the main menu
         SceneManager.LoadScene("Start Menu"); // Load the main menu scene
     }
-
-    // Quits the game
-    public void QuitGame()
-    {
-        Debug.Log("Quit Game");
-        Application.Quit(); // Quit the application
-    }
 }

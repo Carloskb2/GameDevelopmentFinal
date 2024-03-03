@@ -126,7 +126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 731346111, guid: 7e102beaf404b4808985eb84b744156a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -255
+      value: -285
       objectReference: {fileID: 0}
     - target: {fileID: 731346112, guid: 7e102beaf404b4808985eb84b744156a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -162,7 +162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 852818221, guid: 7e102beaf404b4808985eb84b744156a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -190
+      value: -205
       objectReference: {fileID: 0}
     - target: {fileID: 852818222, guid: 7e102beaf404b4808985eb84b744156a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -336,6 +336,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Quit Game
+      objectReference: {fileID: 0}
+    - target: {fileID: 4485270695859174020, guid: 7e102beaf404b4808985eb84b744156a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6027534700181033827, guid: 7e102beaf404b4808985eb84b744156a,
         type: 3}

@@ -12,9 +12,4 @@ public class MainMenuController : MonoBehaviour
     {
         SceneManager.LoadScene("Level Selection Menu"); // Load the level selection scene
     }
-
-    public void QuitGame()
-    {
-        Application.Quit(); // Quit the application
-    }
 }
