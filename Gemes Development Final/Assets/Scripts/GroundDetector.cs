@@ -43,6 +43,7 @@ public class GroundDetector : MonoBehaviour
     {
         if (playerHealth != null)
         {
+            AudioManager.Instance.PlaySound(AudioManager.Instance.dieSound);
             playerHealth.Respawn();
         }
         else

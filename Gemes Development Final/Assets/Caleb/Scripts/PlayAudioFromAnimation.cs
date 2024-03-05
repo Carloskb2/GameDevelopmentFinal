@@ -6,17 +6,11 @@ public class PlayAudioFromAnimation : MonoBehaviour
 {
     AudioSource sfxSource;
     Animator animator;
-    GroundDetector detector;
 
     private void Awake()
     {
         sfxSource = gameObject.GetComponent<AudioSource>();
         animator = gameObject.GetComponent<Animator>();
-    }
-
-    private void Start()
-    {
-        detector = FindObjectOfType<GroundDetector>();
     }
 
     public void PlaySound(AudioClip clip)
@@ -30,8 +24,5 @@ public class PlayAudioFromAnimation : MonoBehaviour
             animator.GetCurrentAnimatorStateInfo(0).IsName("Rogue_idle_01") ||
             !animator.enabled)
             sfxSource.Stop();
-
-        if (transform.position.y < detector.fallThreshold + 1)
-            AudioManager.Instance.PlaySound(AudioManager.Instance.dieSound);
     }
 }
