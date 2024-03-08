@@ -50,6 +50,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 1bb20c8b72b477344acccd75c420e5d6, type: 3}
   - {fileID: 8300000, guid: da7e0929609471247a90bb30593fd22f, type: 3}
   - {fileID: 8300000, guid: aaa0d3ec273d6534392e0e7e7df7c4e4, type: 3}
+  - {fileID: 8300000, guid: 203993b68cc753b4984044a7659f5447, type: 3}
   musicTrackIndex: 0
   stepSound: {fileID: 0}
   jumpSound: {fileID: 0}
