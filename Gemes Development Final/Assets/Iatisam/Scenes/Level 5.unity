@@ -65829,12 +65829,12 @@ PrefabInstance:
     - target: {fileID: 9218412401298939377, guid: 44f665239f70d4cdd914ad2840b0553d,
         type: 3}
       propertyPath: m_Size.y
-      value: 11.296111
+      value: 26.455883
       objectReference: {fileID: 0}
     - target: {fileID: 9218412401298939377, guid: 44f665239f70d4cdd914ad2840b0553d,
         type: 3}
       propertyPath: m_Offset.y
-      value: 5.1480546
+      value: 12.7279415
       objectReference: {fileID: 0}
     - target: {fileID: 9218412401298939378, guid: 44f665239f70d4cdd914ad2840b0553d,
         type: 3}
