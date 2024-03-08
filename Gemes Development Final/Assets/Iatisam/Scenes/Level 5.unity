@@ -9532,8 +9532,8 @@ Transform:
   - {fileID: 1669508161}
   - {fileID: 241913454}
   - {fileID: 1186536175}
-  - {fileID: 619082708}
   - {fileID: 831339404}
+  - {fileID: 619082708}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29310,6 +29310,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657083335326722929, guid: 71ce8edb526b9624c91e0ab5df26b6eb,
+        type: 3}
+      propertyPath: musicTrackIndex
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71ce8edb526b9624c91e0ab5df26b6eb, type: 3}

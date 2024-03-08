@@ -30621,7 +30621,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1613158920}
-  m_RootOrder: 85
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &763873366
 SpriteRenderer:
@@ -72960,6 +72960,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1657083335326722929, guid: 71ce8edb526b9624c91e0ab5df26b6eb,
+        type: 3}
+      propertyPath: musicTrackIndex
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71ce8edb526b9624c91e0ab5df26b6eb, type: 3}
 --- !u!1 &1532675800
@@ -81463,6 +81468,7 @@ Transform:
   - {fileID: 1255558077}
   - {fileID: 1674956730}
   - {fileID: 502963306}
+  - {fileID: 763873365}
   - {fileID: 187074562}
   - {fileID: 1043821354}
   - {fileID: 1677006624}
@@ -81480,7 +81486,6 @@ Transform:
   - {fileID: 1346087415}
   - {fileID: 1593800154}
   - {fileID: 117111711}
-  - {fileID: 763873365}
   - {fileID: 806952997}
   - {fileID: 181014719}
   - {fileID: 145810413}
