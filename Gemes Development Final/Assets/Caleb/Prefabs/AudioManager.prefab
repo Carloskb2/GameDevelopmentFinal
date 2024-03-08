@@ -46,10 +46,10 @@ MonoBehaviour:
   musicTracks:
   - {fileID: 8300000, guid: 28d61c8b4c580384b8b516bb53894565, type: 3}
   - {fileID: 8300000, guid: bbb5e1bec6f9c87439602b11e7264940, type: 3}
-  - {fileID: 8300000, guid: 353682100bcd6c14891050d065d2eb0c, type: 3}
-  - {fileID: 8300000, guid: 1bb20c8b72b477344acccd75c420e5d6, type: 3}
-  - {fileID: 8300000, guid: da7e0929609471247a90bb30593fd22f, type: 3}
-  - {fileID: 8300000, guid: aaa0d3ec273d6534392e0e7e7df7c4e4, type: 3}
+  - {fileID: 8300000, guid: d6cefb5f6c497dc45ba308fe740d366d, type: 3}
+  - {fileID: 8300000, guid: eaa03cd67baa0ca40bfad9a524ab7be8, type: 3}
+  - {fileID: 8300000, guid: 4445652e21c5af64fbc7ba3f2457fac2, type: 3}
+  - {fileID: 8300000, guid: e87b95865beb81247a9e0e79086b4d29, type: 3}
   - {fileID: 8300000, guid: 203993b68cc753b4984044a7659f5447, type: 3}
   musicTrackIndex: 0
   stepSound: {fileID: 0}
