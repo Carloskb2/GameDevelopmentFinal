@@ -5,7 +5,8 @@ public class GameWinScript : MonoBehaviour
 {
     void Start()
     {
-        AudioManager.Instance.PlaySound(AudioManager.Instance.winSound);
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlaySound(AudioManager.Instance.winSound);
     }
 
     // Loads the main menu scene
