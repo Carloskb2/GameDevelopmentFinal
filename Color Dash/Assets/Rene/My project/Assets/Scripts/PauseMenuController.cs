@@ -55,6 +55,12 @@ public class PauseMenuController : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Reload the current scene
     }
 
+    public void SelectLevel()
+    {
+        Time.timeScale = 1f; // Ensure the game's time scale is reset before loading level selection menu
+        SceneManager.LoadScene("Level Selection Menu"); // Load the level selection scene
+    }
+
     // Loads the main menu scene
     public void LoadMainMenu()
     {

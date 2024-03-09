@@ -126,7 +126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 731346111, guid: 7e102beaf404b4808985eb84b744156a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -285
+      value: -320
       objectReference: {fileID: 0}
     - target: {fileID: 731346112, guid: 7e102beaf404b4808985eb84b744156a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -162,7 +162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 852818221, guid: 7e102beaf404b4808985eb84b744156a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -205
+      value: -190
       objectReference: {fileID: 0}
     - target: {fileID: 852818222, guid: 7e102beaf404b4808985eb84b744156a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -216,6 +216,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Camera
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 751780640262607363, guid: 7e102beaf404b4808985eb84b744156a,
+        type: 3}
+      propertyPath: m_text
+      value: SELECT LEVEL
       objectReference: {fileID: 0}
     - target: {fileID: 2113897483537412512, guid: 7e102beaf404b4808985eb84b744156a,
         type: 3}
@@ -335,12 +340,12 @@ PrefabInstance:
     - target: {fileID: 4485270695859174020, guid: 7e102beaf404b4808985eb84b744156a,
         type: 3}
       propertyPath: m_Name
-      value: Quit Game
+      value: Select Level
       objectReference: {fileID: 0}
     - target: {fileID: 4485270695859174020, guid: 7e102beaf404b4808985eb84b744156a,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6027534700181033827, guid: 7e102beaf404b4808985eb84b744156a,
         type: 3}
@@ -460,7 +465,7 @@ PrefabInstance:
     - target: {fileID: 7598279600883977506, guid: 7e102beaf404b4808985eb84b744156a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -320
+      value: -255
       objectReference: {fileID: 0}
     - target: {fileID: 8268758191926222775, guid: 7e102beaf404b4808985eb84b744156a,
         type: 3}
@@ -496,6 +501,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8510042405190676486, guid: 7e102beaf404b4808985eb84b744156a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectLevel
       objectReference: {fileID: 0}
     - target: {fileID: 8510042405190676486, guid: 7e102beaf404b4808985eb84b744156a,
         type: 3}
