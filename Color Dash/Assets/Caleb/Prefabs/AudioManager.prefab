@@ -59,8 +59,8 @@ MonoBehaviour:
   climbUpSound: {fileID: 0}
   climbDownSound: {fileID: 0}
   getHitSound: {fileID: 8300000, guid: a7d2eebbfd05afc448ea211ddfe83469, type: 3}
-  collapseSound: {fileID: 8300000, guid: 16f5815a903c2be4f9100acc10fb9b1d, type: 3}
-  collectableSound: {fileID: 8300000, guid: 9d41f6787ece944afbac9a5d922f10d5, type: 3}
+  collapseSound: {fileID: 8300000, guid: e01651228b393a1409b7d828d2cc50ed, type: 3}
+  collectableSound: {fileID: 8300000, guid: 2751c21d4cfcde24a83001a82037e35f, type: 3}
   dieSound: {fileID: 8300000, guid: b2a05d04534d8f54f84aca00d365485c, type: 3}
   finalSound: {fileID: 8300000, guid: 0e3aba0bac3809843bfcd37a5d15fb64, type: 3}
   winSound: {fileID: 8300000, guid: 0b4cdce16d03a4fa9bba6a100c0ff330, type: 3}
