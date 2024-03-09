@@ -53104,9 +53104,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 040442b574827b24ead62bb698311e0b, type: 2}
-  animationEffect_1: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
+  animationEffect_1: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
     type: 3}
-  animationEffect_2: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
+  animationEffect_2: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
     type: 3}
 --- !u!1001 &1685674171
 PrefabInstance:

@@ -20835,9 +20835,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: feacb74c2d2974f67a975d5c91efa7aa, type: 2}
-  animationEffect_1: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
+  animationEffect_1: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
     type: 3}
-  animationEffect_2: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
+  animationEffect_2: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
     type: 3}
 --- !u!114 &488539249
 MonoBehaviour:
@@ -61743,9 +61743,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 040442b574827b24ead62bb698311e0b, type: 2}
-  animationEffect_1: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
+  animationEffect_1: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
     type: 3}
-  animationEffect_2: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
+  animationEffect_2: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
     type: 3}
 --- !u!1001 &1265122634
 PrefabInstance:
@@ -67962,9 +67962,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: cf899343e6f4a40a994afa756e7f77ae, type: 2}
-  animationEffect_1: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
+  animationEffect_1: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
     type: 3}
-  animationEffect_2: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
+  animationEffect_2: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
     type: 3}
 --- !u!1001 &1398329952
 PrefabInstance:
@@ -81849,9 +81849,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 92d874d198bf101489cb37b65ee95bc6, type: 2}
-  animationEffect_1: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
+  animationEffect_1: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
     type: 3}
-  animationEffect_2: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
+  animationEffect_2: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
     type: 3}
 --- !u!1001 &1592260918
 PrefabInstance:
@@ -88221,9 +88221,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectableID: {fileID: 11400000, guid: 03da4dc648a1cea468c7fce9794fa838, type: 2}
-  animationEffect_1: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
+  animationEffect_1: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
     type: 3}
-  animationEffect_2: {fileID: 3954605369685049540, guid: ecd5a0d30048f470681d56ca99eec7ff,
+  animationEffect_2: {fileID: 2688588678587616223, guid: 5397851c06f194f15b43824f7f3b645c,
     type: 3}
 --- !u!1001 &1739017675
 PrefabInstance:
