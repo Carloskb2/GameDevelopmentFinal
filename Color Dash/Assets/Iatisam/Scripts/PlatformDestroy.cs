@@ -24,7 +24,8 @@ public class PlatformDestroy : MonoBehaviour
             gameObject.SetActive(false);
 
             ExplodeEffect();
-            AudioManager.Instance.PlaySound(AudioManager.Instance.collapseSound);
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlaySound(AudioManager.Instance.collapseSound);
 
             Invoke("PlatformRestore", 1.0f);
 

@@ -54,14 +54,14 @@ MonoBehaviour:
   musicTrackIndex: 0
   stepSound: {fileID: 0}
   jumpSound: {fileID: 0}
-  painSound: {fileID: 8300000, guid: b8ef176f8b7c644a3b62b4cfd8faf07f, type: 3}
+  painSound: {fileID: 8300000, guid: 531c4c8f9f106a746b8f8671d1a49fc3, type: 3}
   fallSound: {fileID: 0}
   climbUpSound: {fileID: 0}
   climbDownSound: {fileID: 0}
-  getHitSound: {fileID: 8300000, guid: 9dfef8eac315540ffa501e18a419b1be, type: 3}
+  getHitSound: {fileID: 8300000, guid: a7d2eebbfd05afc448ea211ddfe83469, type: 3}
   collapseSound: {fileID: 8300000, guid: 16f5815a903c2be4f9100acc10fb9b1d, type: 3}
   collectableSound: {fileID: 8300000, guid: 9d41f6787ece944afbac9a5d922f10d5, type: 3}
-  dieSound: {fileID: 8300000, guid: 55a4a58345595430fb94b364b73d903b, type: 3}
+  dieSound: {fileID: 8300000, guid: b2a05d04534d8f54f84aca00d365485c, type: 3}
   finalSound: {fileID: 8300000, guid: 0e3aba0bac3809843bfcd37a5d15fb64, type: 3}
   winSound: {fileID: 8300000, guid: 0b4cdce16d03a4fa9bba6a100c0ff330, type: 3}
   enemyMoveSound: {fileID: 0}

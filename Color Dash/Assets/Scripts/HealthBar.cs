@@ -37,13 +37,6 @@ public class HealthBar : MonoBehaviour
         if (newHealth < previousHealth) // Check if health has decreased
         {
             print("Hit");
-            // Check if AudioManager instance is available
-            if (AudioManager.Instance != null)
-            {
-                // Play the Get Hit Sound
-                AudioManager.Instance.PlaySound(AudioManager.Instance.getHitSound);
-                AudioManager.Instance.PlaySound(AudioManager.Instance.painSound);
-            }
             StartCoroutine(ShakeCamera()); // Trigger camera shake
         }
 

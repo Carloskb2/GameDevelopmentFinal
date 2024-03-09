@@ -19,6 +19,13 @@ public class DmgCaused : MonoBehaviour
             {
                 BloodEffect(damageCollider.gameObject.transform.position);
             }
+            // Check if AudioManager instance is available
+            if (AudioManager.Instance != null)
+            {
+                // Play the Get Hit Sound
+                AudioManager.Instance.PlaySound(AudioManager.Instance.getHitSound);
+                AudioManager.Instance.PlaySound(AudioManager.Instance.painSound);
+            }
             playerHealth.TakeDamage(damage);
             print("Damage");
         }

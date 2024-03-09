@@ -14,7 +14,8 @@ public class AnimateObject : MonoBehaviour
 
      private void ExplodeEffect()
     {
-        AudioManager.Instance.PlaySound(AudioManager.Instance.finalSound);
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlaySound(AudioManager.Instance.finalSound);
 
         Debug.Log("Effect");
         GameObject explosion = Instantiate(explosionEffect, transform.position, Quaternion.identity);

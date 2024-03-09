@@ -35,13 +35,13 @@ public class EnemyHeadHit : MonoBehaviour
 
     void DestroyEnemy()
     {
-        // Play the enemy death sound
-        AudioManager.Instance.PlaySound(AudioManager.Instance.enemyDieSound);
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlaySound(AudioManager.Instance.enemyDieSound); // Play the enemy death sound
 
         // Instantiate the death effect
         if (deathEffectPrefab != null)
         {
-            Instantiate(deathEffectPrefab, transform.position, Quaternion.identity);
+            Instantiate(deathEffectPrefab, new Vector3(transform.position.x, transform.position.y, transform.position.z - 5), Quaternion.identity);
         }
 
         // Destroy the enemy GameObject

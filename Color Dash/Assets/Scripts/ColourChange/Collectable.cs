@@ -17,7 +17,8 @@ public class Collectable : MonoBehaviour
             {
                 AnimateObject();
             }
-            AudioManager.Instance.PlaySound(AudioManager.Instance.collectableSound);
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlaySound(AudioManager.Instance.collectableSound);
 
             OnCollected?.Invoke(collectableID); // Pass the ID when collected
             gameObject.SetActive(false); // Hide or destroy the collectable
