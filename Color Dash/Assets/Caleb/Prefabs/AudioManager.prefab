@@ -62,12 +62,12 @@ MonoBehaviour:
   collapseSound: {fileID: 8300000, guid: e01651228b393a1409b7d828d2cc50ed, type: 3}
   collectableSound: {fileID: 8300000, guid: 2751c21d4cfcde24a83001a82037e35f, type: 3}
   dieSound: {fileID: 8300000, guid: b2a05d04534d8f54f84aca00d365485c, type: 3}
-  finalSound: {fileID: 8300000, guid: 0e3aba0bac3809843bfcd37a5d15fb64, type: 3}
+  finalSound: {fileID: 8300000, guid: a2cc1c9c9f4ed3c4cabcf7453f3b9c09, type: 3}
   winSound: {fileID: 8300000, guid: 0b4cdce16d03a4fa9bba6a100c0ff330, type: 3}
   enemyMoveSound: {fileID: 0}
   enemyIdleSound: {fileID: 0}
   enemyAttackSound: {fileID: 0}
-  enemyDieSound: {fileID: 8300000, guid: 81ce28028c2542f4b90c0b2fc3956995, type: 3}
+  enemyDieSound: {fileID: 8300000, guid: 3c29db74fa98e2a4f86dc986e7de0dc2, type: 3}
   ambience1: {fileID: 0}
   ambience2: {fileID: 0}
   ambience3: {fileID: 0}
